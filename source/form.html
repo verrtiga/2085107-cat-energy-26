@@ -19,18 +19,47 @@
       </button>
       <div class="navigation__container">
         <ul class="navigation__list">
-          <li class="navigation__item navigation--current">
+          <li class="navigation__item ">
             <a href="index.html">Главная</a>
           </li>
           <li class="navigation__item ">
             <a href="catalog.html">Каталог продукции</a>
           </li>
-          <li class="navigation__item ">
+          <li class="navigation__item navigation--current">
             <a href="form.html">Подбор программы</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
+  <main class="main-container">
+    <form class="main-form" action="https://echo.htmlacademy.ru/courses" method="get">
+      <h1 class="main-form__title">Подбор программы</h1>
+      <p class="main-form__description">Заполните анкету, и мы подберем
+        программу питания для вашего кота</p>
+        <div class="fieldset-input">
+          <label class="fieldset-input__label">ИМЯ:*
+          <input type="text" value="Барсик">
+          </label>
+          <label class="fieldset-input__label">ВЕС (КГ):*
+          <input type="number" value="7">
+          </label>
+          <label class="fieldset-input__label">ВОЗРАСТ (ЛЕТ):*
+          <input type="number" value="7">
+          </label>
+        </div>
+        <div class="fieldset-input">
+          <label class="fieldset-input__label">Похудение
+            <input type="radio" value="Похудение">
+            </label>
+            <label class="fieldset-input__label">Набор массы
+            <input type="radio" value="Набор массы">
+            </label>
+            <label class="fieldset-input__label">Не знаю (нужен ваш совет)
+            <input type="radio" value="Не знаю">
+            </label>
+        </div>
+    </form>
+  </main>
 </body>
 </html>
