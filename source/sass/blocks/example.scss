@@ -1,0 +1,36 @@
+.example {
+  background-color: #f2f2f2;
+}
+
+.example__title {
+  font-family: "Oswald Medium", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.example__description {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.example__info {
+  display: flex;
+}
+
+.example__span {
+  font-family: "Oswald Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/style.css"
+  <link rel="stylesheet" href="css/style.css">
   <title>HTML Academy: Кэт энерджи</title>
 </head>
 
@@ -13,8 +13,8 @@
     <a class="header__logo" href="#">
       <img class="header__logo" src="img/logo-mobile.svg" width="33" height="37" alt="Логотип Кэт Энерджи">
     </a>
-    <a class="header__logo" href="#">
-      <img class="header__logo" src="img/cat-energy-logo.svg" width="101" height="18" alt="CAT ENERGY"
+    <a class="header__logo header__logo--center" href="#">
+      <img class="header__logo" src="img/cat-energy-logo.svg" width="101" height="18" alt="CAT ENERGY">
     </a>
     <nav class="navigation">
       <button class="navigation__toggle" type="button">
@@ -23,15 +23,15 @@
         <span class="visually-hidden">Открыть меню.</span>
       </button>
       <div class="navigation__container">
-        <ul class="navigation__list visually-hidden">
-          <li class="navigation__item navigation__item--current>
-            <a href="index.html">Главная</a>
+        <ul class="navigation__list">
+          <li class="navigation__item navigation__item--current">
+            <a class="navigation__link" href="index.html">Главная</a>
           </li>
           <li class="navigation__item ">
-            <a href="catalog.html">Каталог продукции</a>
+            <a class="navigation__link" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="navigation__item ">
-            <a href="form.html">Подбор программы</a>
+            <a class="navigation__link" href="form.html">Подбор программы</a>
           </li>
         </ul>
       </div>
@@ -51,13 +51,13 @@
             <h3 class="advantages__title"> Похудение </h3>
             <p class="advantages__description">Ваш кот весит больше собаки и почти утратил способность лазить по
               деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-            <a href="catalog.html">Каталог SLIM</a>
+            <a class="advantages__link" href="catalog.html">Каталог SLIM</a>
           </li>
-          <li class="advantages_item">
+          <li class="advantages__item">
             <h3 class="advantages__title"> Набор массы </h3>
             <p class="advantages__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat
               Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-            <a href="catalog.html">Каталог PRO</a>
+              <a class="advantages__link"href="catalog.html">Каталог PRO</a>
           </li>
         </ul>
       </div>
@@ -118,6 +118,7 @@
     <article class="location">
       <h3 class="location__title"> Приглашаем к сотрудничеству дилеров!</h3>
       <p class="location__description">ул. Большая  Конюшенная, д. 19/8 Санкт-Петербург</p>
+      <div class="location__map"></div>
     </article>
   </main>
   <footer class="social">

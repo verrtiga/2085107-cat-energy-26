@@ -1,7 +1,13 @@
 .header {
   background-color: #ffffff;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   padding: 20px 10px;
+}
+
+.header__logo {
+  margin-right: 21px;
+}
+
+.header__logo--center {
+  margin: 0 20px;
 }
