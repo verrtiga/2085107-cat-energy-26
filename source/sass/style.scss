@@ -1,5 +1,27 @@
-@import "../sass/blocks/header";
 @import "../sass/blocks/global";
 @import "../sass/blocks/fonts";
+@import "../sass/blocks/social.scss";
+@import "../sass/blocks/location.scss";
+@import "../sass/blocks/header";
 @import "../sass/blocks/navigation";
+// index.html
+
 @import "../sass/blocks/hero-section";
+@import "../sass/blocks/advantages.scss";
+@import "../sass/blocks/instruction.scss";
+@import "../sass/blocks/example.scss";
+@import "../sass/blocks/comparison.scss";
+
+// form.html
+@import "../sass/blocks/fieldset-info.scss";
+@import "../sass/blocks/fieldset-list.scss";
+@import "../sass/blocks/radio-list.scss";
+@import "../sass/blocks/fieldset-contacts.scss";
+@import "../sass/blocks/fieldset-comment.scss";
+@import "../sass/blocks/fieldset-additional.scss";
+
+// catalog.html
+@import "../sass/blocks/catalog.scss";
+@import "../sass/blocks/product-card.scss";
+@import "../sass/blocks/additional.scss";
+@import "../sass/blocks/sale-block.scss";
