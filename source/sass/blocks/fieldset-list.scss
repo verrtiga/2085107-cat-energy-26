@@ -1,0 +1,25 @@
+.fieldset-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fieldset-list__label {
+  font-family: "Oswald Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $grey;
+}
+
+.fieldset-list__input {
+  font-family: "Oswald Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $grey;
+}

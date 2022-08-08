@@ -5,7 +5,7 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
-  color: #000000;
+  color: $black;
 }
 
 .location__description {
@@ -14,7 +14,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #444444;
+  color: $grey;
 }
 
 .location__map {

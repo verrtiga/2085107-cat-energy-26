@@ -1,22 +1,22 @@
-.instruction__title {
+.main-form__title {
   font-family: "Oswald Medium", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
-  line-height: 40px;
-  color: $black;
+  line-height: 36px;
   margin: 0;
   padding: 0;
+  color: $black;
 }
 
-.instruction__list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-family: "Arial", sans-serif;
+.main-form__description {
+  font-family: "Oswald Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: $grey;
+  text-transform: uppercase;
+  color: $black;
+  margin: 0;
+  padding: 0;
 }
