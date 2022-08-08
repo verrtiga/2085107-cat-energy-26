@@ -27,3 +27,15 @@ body {
   width: 1px;
   overflow: hidden;
 }
+
+.button {
+  font-family: $oswald-regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $white;
+  background-color: $green;
+  border-color: transparent;
+}

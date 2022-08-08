@@ -1,0 +1,28 @@
+@use "../abstract" as *;
+
+.additional__title {
+  font-family: $oswald-medium;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: $black;
+}
+
+.additional__th {
+  font-family: $oswald-regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: $black2;
+}
+
+.additional__td {
+  font-family: $arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: $grey;
+}

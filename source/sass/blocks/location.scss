@@ -1,5 +1,13 @@
 @use "../abstract" as *;
 
+.location {
+  background-color: $milk;
+}
+
+.location--main {
+  background-color: $white;
+}
+
 .location__title {
   font-family: $oswald-regular;
   font-style: normal;

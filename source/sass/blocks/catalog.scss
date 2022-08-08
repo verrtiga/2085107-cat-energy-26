@@ -1,0 +1,11 @@
+@use "../abstract" as *;
+
+.catalog__title {
+  font-family: $oswald-medium;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: $black;
+}
+

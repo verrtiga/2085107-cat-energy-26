@@ -1,0 +1,21 @@
+@use "../abstract" as *;
+
+.sale-block {
+  background-image: linear-gradient(hsl(97 53% 47% / 85%), hsl(97 53% 47% / 85%)), url("../img/sale-block.png");
+  background-color: #adff2f;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  width: 100%;
+  min-height: 289px;
+}
+
+.sale-block__description {
+  font-family: $arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $white;
+  text-align: center;
+}

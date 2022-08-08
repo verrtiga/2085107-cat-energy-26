@@ -1,3 +1,9 @@
+@use "../abstract" as *;
+
+.social {
+  background-color: $milk;
+}
+
 .social__list {
   list-style-type: none;
   margin: 0;
@@ -6,7 +12,7 @@
 
 .html-logo {
   text-decoration: none;
-  font-family: "Arial", sans-serif;
+  font-family: $arial;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

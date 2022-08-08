@@ -1,0 +1,27 @@
+@use "../abstract" as *;
+
+.product-card__title {
+  font-family: $oswald-regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.product-card__options {
+  font-family: $arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $grey;
+}
+
+.product-card__description {
+  font-family: $arial;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
