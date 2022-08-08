@@ -1,5 +1,7 @@
+@use "../abstract" as *;
+
 .instruction__title {
-  font-family: "Oswald Medium", sans-serif;
+  font-family: $oswald-medium;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -13,7 +15,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif;
+  font-family: $arial;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

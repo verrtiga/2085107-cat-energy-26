@@ -1,5 +1,7 @@
+@use "../abstract" as *;
+
 .location__title {
-  font-family: "Oswald Regular", sans-serif;
+  font-family: $oswald-regular;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9,7 +11,7 @@
 }
 
 .location__description {
-  font-family: "Arial", sans-serif;
+  font-family: $arial;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

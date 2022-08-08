@@ -1,3 +1,5 @@
+@use "../abstract" as *;
+
 .advantages__list {
   list-style-type: none;
   margin: 0;
@@ -9,7 +11,7 @@
 }
 
 .advantages__title {
-  font-family: "Oswald Medium", sans-serif;
+  font-family: $oswald-medium;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -21,7 +23,7 @@
 }
 
 .advantages__description {
-  font-family: "Arial", sans-serif;
+  font-family: $arial;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -30,11 +32,11 @@
 }
 
 .advantages__link {
-  font-family: "Oswald Regular", sans-serif;
+  font-family: $oswald-regular;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   text-decoration: none;
-  color: $black;
+  color: $grey;
 }

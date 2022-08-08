@@ -1,3 +1,5 @@
+@use "../abstract" as *;
+
 .fieldset-list {
   list-style-type: none;
   margin: 0;
@@ -5,7 +7,7 @@
 }
 
 .fieldset-list__label {
-  font-family: "Oswald Regular", sans-serif;
+  font-family: $oswald-regular;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -15,7 +17,7 @@
 }
 
 .fieldset-list__input {
-  font-family: "Oswald Regular", sans-serif;
+  font-family: $oswald-regular;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

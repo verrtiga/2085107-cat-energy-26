@@ -1,3 +1,5 @@
+@use "../abstract" as *;
+
 .hero-section {
   background-image: linear-gradient(hsl(97 53% 47% / 85%), hsl(97 53% 47% / 85%)), url("../img/index-background.png");
   background-color: #adff2f;
@@ -9,7 +11,7 @@
 }
 
 .hero-section__title {
-  font-family: "Oswald Medium", sans-serif;
+  font-family: $oswald-medium;
   text-align: center;
   font-style: normal;
   font-weight: 400;
@@ -19,7 +21,7 @@
 }
 
 .hero-section__slogan {
-  font-family: "Oswald Regular", sans-serif;
+  font-family: $oswald-regular;
   text-align: center;
   font-style: normal;
   font-weight: 400;

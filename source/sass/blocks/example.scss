@@ -1,9 +1,11 @@
+@use "../abstract" as *;
+
 .example {
   background-color: $milk;
 }
 
 .example__title {
-  font-family: "Oswald Medium", sans-serif;
+  font-family: $oswald-medium;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -14,7 +16,7 @@
 }
 
 .example__description {
-  font-family: "Arial", sans-serif;
+  font-family: $arial;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -27,7 +29,7 @@
 }
 
 .example__span {
-  font-family: "Oswald Regular", sans-serif;
+  font-family: $oswald-regular;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
