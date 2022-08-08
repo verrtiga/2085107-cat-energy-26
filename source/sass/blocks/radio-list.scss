@@ -1,5 +1,17 @@
-.radio-list__lable {
+@use "../abstract" as *;
+
+.radio-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.radio-list__item {
+  font-family: $oswald-regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $black2;
 }
