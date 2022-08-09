@@ -5,6 +5,7 @@
 }
 
 .social__list {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,4 +19,8 @@
   font-size: 16px;
   line-height: 18px;
   color: $grey;
+}
+
+.social__logo {
+  padding: 40px 96px;
 }

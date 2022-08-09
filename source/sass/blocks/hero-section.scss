@@ -6,21 +6,24 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
-  width: 100%;
-  min-height: 302px;
+  width: 320px;
+  min-height: 300px;
 }
 
 .hero-section__title {
+  margin: 0;
+  padding-top: 27px;
   font-family: $oswald-medium;
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 33px;
   line-height: 36px;
   color: $white;
 }
 
 .hero-section__slogan {
+  padding-top: 25px;
   font-family: $oswald-regular;
   text-align: center;
   font-style: normal;

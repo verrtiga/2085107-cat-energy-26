@@ -2,17 +2,27 @@
 
 .example {
   background-color: $milk;
+  padding-left: 20px;
+  min-height: 659px;
 }
 
 .example__title {
   font-family: $oswald-medium;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 40px;
+  font-size: 14px;
+  line-height: 20px;
   color: $black;
   margin: 0;
   padding: 0;
+}
+
+.example__title--main {
+  font-size: 36px;
+  line-height: 40px;
+  padding-bottom: 40px;
+  padding-top: 25px;
+  padding-left: 20px;
 }
 
 .example__description {

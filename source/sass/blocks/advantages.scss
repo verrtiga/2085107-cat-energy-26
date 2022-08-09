@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-.advantages__item {
-  background-color: $milk;
-}
-
 .advantages__title {
   font-family: $oswald-medium;
   font-style: normal;
@@ -17,7 +13,9 @@
   font-size: 24px;
   line-height: 37px;
   margin: 0;
-  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
   color: $black;
   text-transform: uppercase;
 }
@@ -29,6 +27,10 @@
   font-size: 14px;
   line-height: 18px;
   color: $grey;
+  margin: 0;
+  padding-bottom: 42px;
+  padding-left: 20px;
+  padding-right: 33px;
 }
 
 .advantages__link {
@@ -39,4 +41,10 @@
   line-height: 16px;
   text-decoration: none;
   color: $grey;
+  padding-left: 19px;
+}
+
+.advantages__container {
+  margin: 20px;
+  background-color: $milk;
 }
