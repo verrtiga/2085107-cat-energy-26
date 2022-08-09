@@ -3,7 +3,12 @@
 .fieldset-list {
   list-style-type: none;
   margin: 0;
+  margin-bottom: 25px;
   padding: 0;
+}
+
+.fieldset-list__item {
+  padding-bottom: 41px;
 }
 
 .fieldset-list__label {

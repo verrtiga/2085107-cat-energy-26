@@ -2,6 +2,7 @@
 
 .fieldset-contacts__title {
   margin: 0;
+  margin-bottom: 40px;
   padding: 0;
   font-family: $oswald-medium;
   font-style: normal;
@@ -35,4 +36,8 @@
   line-height: 18px;
   text-transform: uppercase;
   color: $grey;
+}
+
+.fieldset-contacts__item {
+  margin-bottom: 40px;
 }

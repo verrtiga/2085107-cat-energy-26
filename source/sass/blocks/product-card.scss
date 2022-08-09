@@ -8,6 +8,8 @@
   line-height: 20px;
   text-transform: uppercase;
   color: $black;
+  margin: 0;
+  margin-top: 103px;
 }
 
 .product-card__options {
@@ -24,4 +26,11 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 21px;
+}
+
+.product-card__td {
+  padding-right: 74px;
 }
