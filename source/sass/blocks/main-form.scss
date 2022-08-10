@@ -1,7 +1,7 @@
 @use "../abstract" as *;
 
 .main-form__title {
-  font-family: $oswald-medium;
+  font-family: $oswald;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -14,7 +14,7 @@
 }
 
 .main-form__description {
-  font-family: $oswald-regular;
+  font-family: $oswald;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

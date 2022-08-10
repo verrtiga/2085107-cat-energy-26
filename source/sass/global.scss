@@ -2,7 +2,7 @@
 
 body {
   box-sizing: border-box;
-  font-family: "Arial", sans-serif;
+  font-family: $arial;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -28,7 +28,7 @@ body {
 }
 
 .button {
-  font-family: $oswald-regular;
+  font-family: $oswald;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

@@ -1,7 +1,7 @@
 @use "../abstract" as *;
 
 .additional__title {
-  font-family: $oswald-medium;
+  font-family: $oswald;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -13,7 +13,7 @@
 }
 
 .additional__th {
-  font-family: $oswald-regular;
+  font-family: $oswald;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
