@@ -8,10 +8,17 @@
   background-position: center;
   width: 320px;
   min-height: 300px;
+
+  @media (min-width: $tablet-width) {
+    background-image: none;
+    background-color: transparent;
+    width: 768px;
+  }
 }
 
 .hero-section__title {
   margin: 0;
+  padding: 0;
   padding-top: 27px;
   font-family: $oswald;
   text-align: center;
@@ -20,9 +27,20 @@
   font-size: 33px;
   line-height: 36px;
   color: $white;
+
+  @media (min-width: $tablet-width) {
+    color: $black;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding-left: 117px;
+    padding-right: 237px;
+  }
 }
 
 .hero-section__slogan {
+  margin: 0;
   padding-top: 25px;
   font-family: $oswald;
   text-align: center;
@@ -32,4 +50,19 @@
   line-height: 14px;
   color: $white;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    color: $black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    padding-right: 366px;
+    padding-left: 119px;
+  }
+}
+
+.hero-section__button {
+  margin-left: 120px;
+  margin-right: 404px;
+  margin-top: 50px;
 }

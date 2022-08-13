@@ -2,14 +2,55 @@
 
 .header {
   background-color: $white;
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    display: flex;
+  }
+}
+
+
+.header-logo {
+  position: relative;
   display: flex;
-  padding: 20px 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  padding: 0 20px;
+  min-height: 66px;
+
+  // @media (min-width: $tablet-width) {
+
+  // }
 }
 
-.header__logo {
-  margin-right: 21px;
+.header__toggle {
+  position: relative;
+  width: 24px;
+  height: 18px;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
 
-.header__logo--center {
-  margin: 0 20px;
+.header__logo-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  @media (min-width: $tablet-width) {
+    left: 112px;
+  }
 }
+
+

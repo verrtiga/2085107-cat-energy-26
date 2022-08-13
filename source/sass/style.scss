@@ -1,6 +1,11 @@
+
+// global
 @use "../sass/fonts.scss";
 @use "../sass/global.scss";
 @use "../sass/blocks/button.scss";
+@use "../sass/blocks/social.scss";
+
+// blocks
 @use "../sass/blocks/location.scss";
 @use "../sass/blocks/header.scss";
 @use "../sass/blocks/navigation.scss";
@@ -18,4 +23,4 @@
 @use "../sass/blocks/product-card.scss";
 @use "../sass/blocks/additional.scss";
 @use "../sass/blocks/sale-block.scss";
-@use "../sass/blocks/social.scss";
+

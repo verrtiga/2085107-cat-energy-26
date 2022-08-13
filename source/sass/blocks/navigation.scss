@@ -1,7 +1,23 @@
 @use "../abstract" as *;
 
+.navigation {
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    padding-right: 20px;
+  }
+}
+
 .navigation__list {
   list-style-type: none;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
 }
 
 .navigation__link {
