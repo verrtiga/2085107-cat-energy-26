@@ -1,5 +1,11 @@
 @use "../abstract" as *;
 
+.advantages {
+  width: 280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .advantages__list {
   list-style-type: none;
   margin: 0;
@@ -44,7 +50,7 @@
   padding-left: 19px;
 }
 
-.advantages__container {
-  margin: 20px;
+.advantages-container {
+  margin-top: 20px;
   background-color: $milk;
 }

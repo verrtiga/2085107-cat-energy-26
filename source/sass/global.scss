@@ -11,11 +11,6 @@ body {
   background-color: $white;
 }
 
-.page-container {
-  width: 320px;
-  margin: 0 auto;
-}
-
 .visually-hidden {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
@@ -27,14 +22,12 @@ body {
   overflow: hidden;
 }
 
-.button {
-  font-family: $oswald;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: $white;
-  background-color: $green;
-  border-color: transparent;
+.header-container {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.main-container {
+  width: 320px;
+  margin: 0 auto;
 }
