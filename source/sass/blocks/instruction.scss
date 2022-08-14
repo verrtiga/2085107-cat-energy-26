@@ -31,6 +31,11 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
+    display: grid;
+    grid-template-columns: 280px 280px;
+    grid-template-rows: auto auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 150px;
   }
 }
 
