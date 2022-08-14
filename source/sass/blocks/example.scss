@@ -46,6 +46,10 @@
     font-size: 16px;
     line-height: 24px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 708px;
+  }
 }
 
 .example-info-container {
@@ -57,6 +61,11 @@
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-around;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: flex-start;
   }
 }
 
@@ -71,5 +80,13 @@
   @media (min-width: $tablet-width) {
     font-size: 30px;
     line-height: 37px;
+  }
+}
+
+.example__info {
+  width: 124px;
+
+  @media (min-width: $tablet-width) {
+    width: 162px;
   }
 }

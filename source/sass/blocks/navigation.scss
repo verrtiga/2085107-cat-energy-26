@@ -18,6 +18,12 @@
     justify-content: space-between;
     margin-top: 20px;
   }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
 }
 
 .navigation__link {
@@ -29,6 +35,10 @@
   line-height: 20px;
   text-transform: uppercase;
   color: $black;
+
+  @media (min-width: $desktop-width) {
+    color: $white;
+  }
 }
 
 .navigation__item {

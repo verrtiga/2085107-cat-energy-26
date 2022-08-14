@@ -1,12 +1,17 @@
 @use "../abstract" as *;
 
 .header {
-  background-color: $white;
   width: 320px;
 
   @media (min-width: $tablet-width) {
     width: 768px;
     display: flex;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 

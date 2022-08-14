@@ -37,6 +37,10 @@
     grid-row-gap: 30px;
     grid-column-gap: 150px;
   }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }
 
 .instruction__item {
