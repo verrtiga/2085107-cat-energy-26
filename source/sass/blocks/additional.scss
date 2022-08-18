@@ -29,3 +29,12 @@
   line-height: 14px;
   color: $grey;
 }
+
+.additional__tr {
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 163px 132px 44px;
+  }
+}

@@ -1,5 +1,14 @@
 @use "../abstract" as *;
 
+.product-card {
+  background-color: transparent;
+
+  @media (min-width: $tablet-width) {
+    background-color: $milk;
+    width: 324px;
+  }
+}
+
 .product-card__title {
   font-family: $oswald;
   font-style: normal;

@@ -3,12 +3,12 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
   <title>HTML Academy: Кэт энерджи</title>
 </head>
 
 <body class="page__body">
-  <div class="header-container">
     <header class="header">
       <div class="header-logo">
       <a class="header__logo" href="index.html">
@@ -37,10 +37,10 @@
         </div>
       </nav>
     </header>
-     </div>
   <main class="main-container">
     <section class="catalog">
       <h1 class="catalog__title"> Каталог продукции</h1>
+      <div class="catalog-wrapper">
       <article class="product-card">
         <img src="./img/chicken-pro-500.png" width="68" height="86" alt="Курица">
         <h3 class="product-card__title"> Cat Energy Pro 500г</h3>
@@ -179,6 +179,7 @@
         <p class="product-card__description">На самом деле вкусов гораздо больше!</p>
         <button class="button product-card__button product-card__button--more" > Показать все</button>
       </div>
+      </div>
     </section>
     <section class="additional">
       <h2 class="additional__title">Дополнительные товары</h2>
@@ -216,9 +217,8 @@
     </section>
     <article class="location">
       <h3 class="location__title"> Приглашаем к сотрудничеству дилеров!</h3>
-      <p class="location__description">ул. Большая
-        Конюшенная, д. 19/8
-        Санкт-Петербург</p>
+      <p class="location__description">ул. Большая  Конюшенная, д. 19/8 Санкт-Петербург</p>
+      <div class="location__map"></div>
     </article>
   </main>
   <footer class="social">
