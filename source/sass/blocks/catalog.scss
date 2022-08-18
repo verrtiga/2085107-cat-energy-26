@@ -21,4 +21,9 @@
     row-gap: 90px;
     padding: 68px 30px;
   }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

@@ -7,6 +7,10 @@
     background-color: $milk;
     width: 324px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+  }
 }
 
 .product-card__title {

@@ -35,6 +35,10 @@
   line-height: 20px;
   text-transform: uppercase;
   color: $black;
+}
+
+.navigation__link--main {
+  color: $black;
 
   @media (min-width: $desktop-width) {
     color: $white;
