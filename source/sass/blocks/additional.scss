@@ -1,5 +1,13 @@
 @use "../abstract" as *;
 
+.additional-container {
+  display: block;
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
+}
+
 .additional__title {
   font-family: $oswald;
   font-style: normal;
