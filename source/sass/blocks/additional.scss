@@ -36,5 +36,11 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: 163px 132px 44px;
+    grid-template-rows: auto auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
   }
 }
