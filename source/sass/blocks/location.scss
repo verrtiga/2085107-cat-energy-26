@@ -4,6 +4,16 @@
   background-color: $milk;
 }
 
+.location-container {
+  display: grid;
+  grid-template-columns: 138px 138px;
+
+  @media (min-width: $tablet-width) {
+    column-gap: 290px;
+    margin-left: 70px;
+  }
+}
+
 .location--main {
   background-color: $white;
 }

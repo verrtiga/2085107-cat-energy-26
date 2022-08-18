@@ -16,6 +16,16 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 161px 161px;
+    column-gap: 120px;
+  }
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
 }
 
 .fieldset-additional__item {

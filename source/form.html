@@ -9,7 +9,6 @@
 </head>
 
 <body class="page__body">
-  <div class="header-container">
     <header class="header">
       <div class="header-logo">
       <a class="header__logo" href="index.html">
@@ -45,6 +44,7 @@
         <p class="main-form__description">Заполните анкету, и мы подберем
           программу питания для вашего кота</p>
         <div class="fieldset-name-container">
+          <div class="fieldset-list-radio-wrapper">
           <ul class="fieldset-list">
             <li class="fieldset-list__item">
               <label class="fieldset-list__label">ИМЯ:*
@@ -78,6 +78,7 @@
                 id="dont-know">
             </li>
           </ul>
+          </div>
           <div class="fieldset-contacts">
             <h2 class="fieldset-contacts__title">Контактные данные (владельца кота)</h2>
             <ul class="fieldset-contacts__list">
@@ -130,9 +131,11 @@
         <span class="main-form__required"> * - Обязательные поля</span>
       </form>
       <article class="location">
+        <div class="location-container">
         <h3 class="location__title"> Приглашаем к сотрудничеству дилеров!</h3>
-      <p class="location__description">ул. Большая  Конюшенная, д. 19/8 Санкт-Петербург</p>
-      <div class="location__map"></div>
+        <p class="location__description">ул. Большая  Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
+        <div class="location__map"></div>
       </article>
     </section>
   </main>
