@@ -9,6 +9,7 @@ body {
   line-height: 18px;
   color: $grey;
   background-color: $white;
+  margin: 0;
 }
 
 .visually-hidden {
@@ -22,14 +23,16 @@ body {
   overflow: hidden;
 }
 
-.container {
-  width: 320px;
+.global-container {
+  padding: 0 20px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     width: 768px;
+    padding: 0 30px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 1440px;
+    width: 1280px;
   }
 }

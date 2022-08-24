@@ -3,12 +3,11 @@
 .social {
   display: flex;
   background-color: $milk;
-  width: 320px;
+  width: 100%;
   align-items: center;
   flex-direction: column;
 
   @media (min-width: $tablet-width) {
-    width: 768px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,7 +16,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1440px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

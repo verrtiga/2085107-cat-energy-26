@@ -9,6 +9,14 @@
   }
 }
 
+.navigation__container--close {
+  visibility: hidden;
+}
+
+.navigation__container--open {
+  visibility: visible;
+}
+
 .navigation__list {
   list-style-type: none;
   margin: 0;
