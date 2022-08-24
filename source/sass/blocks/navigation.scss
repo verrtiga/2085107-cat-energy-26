@@ -9,17 +9,8 @@
   }
 }
 
-.navigation__container--close {
-  visibility: hidden;
-}
-
 .navigation__container--open {
-  visibility: visible;
   position: absolute;
-}
-
-.navigation__container--nojs {
-  display: none;
 }
 
 .navigation__list {
