@@ -1,7 +1,7 @@
 @use "../abstract" as *;
 
 .navigation {
-  width: 320px;
+  width: 100%;
 
   @media (min-width: $tablet-width) {
     width: 768px;
@@ -15,11 +15,20 @@
 
 .navigation__container--open {
   visibility: visible;
+  position: absolute;
+}
+
+.navigation__container--nojs {
+  display: none;
 }
 
 .navigation__list {
   list-style-type: none;
   margin: 0;
+  text-align: center;
+  background-color: $white;
+  width: 320px;
+  z-index: 10;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -43,6 +52,7 @@
   line-height: 20px;
   text-transform: uppercase;
   color: $black;
+  // border-bottom: 1px solid #e6e6e6;
 }
 
 .navigation__link--main {
@@ -54,5 +64,7 @@
 }
 
 .navigation__item {
-  padding-bottom: 14px;
+  padding-bottom: 23px;
+  padding-top: 23px;
+  border-top: 1px solid #e6e6e6;
 }
