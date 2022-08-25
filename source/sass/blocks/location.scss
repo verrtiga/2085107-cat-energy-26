@@ -38,9 +38,7 @@
 }
 
 .location__map {
-  background-image: url("../img/map.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center;
-  height: 362px;
+  width: 100%;
+  display: block;
+  border: none;
 }
