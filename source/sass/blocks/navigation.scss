@@ -11,6 +11,11 @@
 
 .navigation__container--open {
   position: absolute;
+  visibility: hidden;
+
+  @media (min-width: $tablet-width) {
+    visibility: visible;
+  }
 }
 
 .navigation__list {
@@ -25,11 +30,13 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    background-color: transparent;
+    width: 100%;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 20px;
   }
 }
@@ -58,4 +65,9 @@
   padding-bottom: 23px;
   padding-top: 23px;
   border-top: 1px solid #e6e6e6;
+
+  @media (min-width: $tablet-width) {
+    border-top: 0 solid transparent;
+    padding-top: 0;
+  }
 }
