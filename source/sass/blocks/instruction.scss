@@ -17,6 +17,7 @@
 }
 
 .instruction__list {
+  position: relative;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,7 +28,6 @@
   line-height: 112%;
   color: $grey;
   padding-bottom: 28px;
-  counter-reset: instruction-counter;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -35,8 +35,11 @@
     display: grid;
     grid-template-columns: 280px 280px;
     grid-template-rows: auto auto;
-    grid-row-gap: 30px;
+    grid-row-gap: 200px;
     grid-column-gap: 150px;
+    counter-reset: instruction-counter;
+    padding-bottom: 140px;
+    padding-top: 72px;
   }
 
   @media (min-width: $desktop-width) {
@@ -47,6 +50,31 @@
 .instruction__item {
   position: relative;
   padding-bottom: 26px;
+
+  @media (min-width: $tablet-width) {
+    counter-increment: instruction-counter;
+  }
+}
+
+.instruction__item::after {
+  font-family: $oswald;
+  width: 120px;
+  content: "";
+  position: absolute;
+  font-size: 280px;
+  color: $milk;
+  top: 100px;
+  z-index: -1;
+  right: -9px;
+
+  @media (min-width: $tablet-width) {
+    content: counter(instruction-counter);
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 17px;
+    right: -15px;
+  }
 }
 
 
@@ -86,3 +114,4 @@
   margin: 0;
   padding-left: 70px;
 }
+
