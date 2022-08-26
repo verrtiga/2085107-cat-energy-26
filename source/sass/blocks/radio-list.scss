@@ -11,8 +11,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 76px;
   text-transform: uppercase;
   color: $black2;
   margin-bottom: 25px;
+
+  @media (min-width: $tablet-width) {
+    line-height: 100%;
+  }
 }

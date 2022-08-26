@@ -16,9 +16,14 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 76%;
   text-transform: uppercase;
   color: $grey;
+
+
+  @media (min-width: $tablet-width) {
+    line-height: 100%;
+  }
 }
 
 .fieldset-list__input {

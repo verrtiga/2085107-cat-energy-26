@@ -8,8 +8,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 26px;
+  line-height: 73%;
   color: $black;
+
+  @media (min-width: $tablet-width) {
+    line-height: 67%;
+  }
 }
 
 .fieldset-additional__list {
@@ -37,7 +41,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 76%;
   text-transform: uppercase;
   color: $black2;
+
+  @media (min-width: $tablet-width) {
+    line-height: 100%;
+  }
 }

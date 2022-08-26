@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
-  line-height: 36px;
+  line-height: 67%;
   margin: 0;
   padding: 0;
   color: $black;
@@ -18,11 +18,15 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 87%;
   text-transform: uppercase;
   color: $black;
   margin: 0;
   margin-bottom: 40px;
+
+  @media (min-width: $tablet-width) {
+    line-height: 101%;
+  }
 }
 
 .main-form__required {
