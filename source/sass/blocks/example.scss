@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 75%;
   color: $black;
   margin: 0;
   padding: 0;
@@ -21,14 +21,14 @@
 
 .example__title--main {
   font-size: 36px;
-  line-height: 40px;
+  line-height: 75%;
   padding-bottom: 40px;
   padding-top: 25px;
   padding-left: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
-    line-height: 60px;
+    line-height: 67%;
   }
 }
 
@@ -38,13 +38,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 112%;
   color: $grey;
   padding-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 130%;
   }
 
   @media (min-width: $desktop-width) {

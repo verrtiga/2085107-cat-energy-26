@@ -5,14 +5,14 @@
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 75%;
   color: $black;
   margin: 0;
   padding-bottom: 42px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
-    line-height: 60px;
+    line-height: 67%;
   }
 }
 
@@ -24,13 +24,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 112%;
   color: $grey;
   padding-bottom: 28px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 130%;
     display: grid;
     grid-template-columns: 280px 280px;
     grid-template-rows: auto auto;
