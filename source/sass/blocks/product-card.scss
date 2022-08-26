@@ -18,11 +18,19 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 84%;
   text-transform: uppercase;
   color: $black;
   margin: 0;
   margin-top: 103px;
+
+  @media (min-width: $tablet-width) {
+    line-height: 81%;
+  }
+
+  @media (min-width: $desktop-width) {
+    line-height: 71%;
+  }
 }
 
 .product-card__options {
@@ -30,18 +38,26 @@
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 116%;
   color: $grey;
+
+  @media (min-width: $tablet-width) {
+    line-height: 87%;
+  }
 }
 
 .product-card__description {
   font-family: $arial;
   font-weight: 400;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 116%;
   margin: 0;
   margin-top: 8px;
   margin-bottom: 21px;
+
+  @media (min-width: $tablet-width) {
+    line-height: 98%;
+  }
 }
 
 .product-card__td {
