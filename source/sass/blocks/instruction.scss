@@ -27,6 +27,7 @@
   line-height: 112%;
   color: $grey;
   padding-bottom: 28px;
+  counter-reset: instruction-counter;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -44,9 +45,44 @@
 }
 
 .instruction__item {
+  position: relative;
   padding-bottom: 26px;
+}
+
+
+.instruction__item--function-eat::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/function-eat.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.instruction__item--powder::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/powder.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.instruction__item--change-eat::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/change-eat.svg");
+  width: 60px;
+  height: 60px;
+}
+
+.instruction__item--changes::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/changes.svg");
+  width: 60px;
+  height: 60px;
 }
 
 .instruction__description {
   margin: 0;
+  padding-left: 70px;
 }

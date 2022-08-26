@@ -111,6 +111,10 @@
   left: 20px;
   height: 2px;
   width: 240px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
 
 .advantages__link {
