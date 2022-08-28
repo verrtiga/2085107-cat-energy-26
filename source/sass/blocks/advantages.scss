@@ -51,6 +51,10 @@
   height: 50px;
   left: 22px;
   top: 21px;
+
+  @media (min-width: $tablet-width) {
+    right: 61px;
+  }
 }
 
 .advantages__item--strong::before {

@@ -11,12 +11,16 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 75%;
+  line-height: 96%;
   color: $black;
   margin: 0;
   padding: 0;
   grid-column: 1/3;
   padding-left: 29px;
+
+  @media (min-width: $tablet-width) {
+    line-height: 67%;
+  }
 }
 
 .example__title--main {
@@ -32,7 +36,7 @@
   }
 }
 
-.example__description {
+.example__main-description {
   margin: 0;
   font-family: $arial;
   font-style: normal;
@@ -52,11 +56,23 @@
   }
 }
 
+.example__description {
+  width: 87px;
+  text-align: center;
+  padding-top: 32px;
+  padding-left: 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 142px;
+  }
+}
+
 .example-info-container {
   display: grid;
   grid-template-columns: 124px 124px;
   grid-template-rows: auto;
   justify-content: space-evenly;
+  column-gap: 32px;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -70,12 +86,15 @@
 }
 
 .example__span {
+  position: absolute;
   font-family: $oswald;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   color: $black;
+  left: 42px;
+  top: 14px;
 
   @media (min-width: $tablet-width) {
     font-size: 30px;
@@ -83,8 +102,16 @@
   }
 }
 
+.example__span--days {
+  left: 19px;
+}
+
 .example__info {
+  position: relative;
   width: 124px;
+  background-image: url("../img/slider-border.svg");
+  background-repeat: no-repeat;
+
 
   @media (min-width: $tablet-width) {
     width: 162px;

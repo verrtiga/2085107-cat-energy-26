@@ -1,0 +1,19 @@
+@use "../abstract" as *;
+
+.comparison {
+  position: relative;
+}
+
+.comparison__range {
+  position: absolute;
+  height: 256px;
+  width: 4px;
+  background-color: #666666;
+  margin-left: 136px;
+}
+
+.range-toggle {
+  position: absolute;
+  left: 129px;
+  top: 107px;
+}
