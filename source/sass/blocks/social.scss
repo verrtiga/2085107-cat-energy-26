@@ -32,7 +32,25 @@
   padding-top: 34px;
 }
 
+.social__item {
+  padding-left: 26px;
+}
+
+.social__line {
+  display: block;
+  border: 1px solid #e6e6e6;
+  width: 280px;
+  margin-top: 32px;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+    margin: 0;
+    display: none;
+  }
+}
+
 .html-logo {
+  display: flex;
   text-decoration: none;
   font-family: $arial;
   font-style: normal;
@@ -41,6 +59,15 @@
   line-height: 100%;
   color: $grey;
   padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.html-logo__description {
+  padding-right: 145px;
+
+  @media (min-width: $tablet-width) {
+    padding-right: 22px;
+  }
 }
 
 .social__logo {
