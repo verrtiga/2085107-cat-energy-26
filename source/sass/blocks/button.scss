@@ -30,4 +30,10 @@
   padding: 10px 110px;
   margin-left: 20px;
   margin-right: 20px;
+
+  @media (min-width: $desktop-width) {
+    width: 168px;
+    padding: 10px 53px;
+    margin-left: 40px;
+  }
 }
