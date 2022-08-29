@@ -1,6 +1,7 @@
 @use "../abstract" as *;
 
 .button {
+  cursor: pointer;
   font-family: $oswald;
   font-style: normal;
   font-weight: 400;
@@ -22,4 +23,11 @@
   @media (min-width: $tablet-width) {
     line-height: 67%;
   }
+}
+
+.product-card__button {
+  width: 280px;
+  padding: 10px 110px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
