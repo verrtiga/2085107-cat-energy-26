@@ -21,9 +21,12 @@
     z-index: 1;
     width: 565px;
     background-color: $white;
+    grid-template-columns: 176px 231px;
     column-gap: 80px;
     height: 198px;
     position: absolute;
+    top: 95px;
+    left: 110px;
   }
 }
 
@@ -43,6 +46,11 @@
   @media (min-width: $tablet-width) {
     line-height: 88%;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 60px;
+    margin-left: 80px;
+  }
 }
 
 .location__description {
@@ -55,6 +63,11 @@
 
   @media (min-width: $tablet-width) {
     line-height: 109%;
+
+    @media (min-width: $desktop-width) {
+      margin-top: 60px;
+      margin-left: 87px;
+    }
   }
 }
 
