@@ -37,3 +37,14 @@
     margin-left: 40px;
   }
 }
+
+.product-card__button--more {
+  padding: 10px 90px;
+  background-color: $milk;
+  color: $grey;
+
+  @media (min-width: $desktop-width) {
+    padding: 10px 23px;
+    width: 169px;
+  }
+}
