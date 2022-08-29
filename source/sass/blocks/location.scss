@@ -2,6 +2,10 @@
 
 .location {
   background-color: $milk;
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+  }
 }
 
 .location-container {
@@ -11,6 +15,15 @@
   @media (min-width: $tablet-width) {
     column-gap: 290px;
     margin-left: 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    z-index: 1;
+    width: 565px;
+    background-color: $white;
+    column-gap: 80px;
+    height: 198px;
+    position: absolute;
   }
 }
 
