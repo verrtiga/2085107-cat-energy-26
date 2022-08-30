@@ -125,6 +125,10 @@
 
 .product-card__td {
   padding-right: 74px;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 16px;
+  }
 }
 
 .product-card__tr {

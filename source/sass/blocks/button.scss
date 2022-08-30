@@ -48,3 +48,14 @@
     width: 169px;
   }
 }
+
+.additional__button {
+  padding: 10px 110px;
+  grid-row: 2/3;
+  margin-bottom: 12px;
+
+  @media (min-width: $tablet-width) {
+    padding: 7px 220px;
+    padding-bottom: 10px;
+  }
+}
