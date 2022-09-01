@@ -116,3 +116,15 @@
     margin-left: 111px;
   }
 }
+
+.additional__tr--last {
+  border-bottom: 1px solid #d3d3d3;
+
+  @media (min-width: $tablet-width) {
+    border-bottom: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    border-bottom: 1px solid #d3d3d3;
+  }
+}
