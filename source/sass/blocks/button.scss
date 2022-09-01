@@ -58,4 +58,8 @@
     padding: 7px 220px;
     padding-bottom: 10px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 7px 26px;
+  }
 }

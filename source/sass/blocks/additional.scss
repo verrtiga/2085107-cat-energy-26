@@ -28,6 +28,11 @@
     border: 1px solid #d3d3d3;
     border-collapse: collapse;
   }
+
+  @media (min-width: $desktop-width) {
+    border: none;
+    border-collapse: unset;
+  }
 }
 
 .additional__title {
@@ -64,6 +69,10 @@
   width: 124px;
   padding-top: 15px;
   padding-right: 228px;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
 }
 
 .additional__td {
@@ -78,7 +87,7 @@
   @media (min-width: $tablet-width) {
     line-height: 109%;
     min-width: 113px;
-    border: 1px solid #d3d3d3;
+    // border: 1px solid #d3d3d3;
   }
 }
 
@@ -94,10 +103,16 @@
     flex-wrap: wrap;
     justify-content: space-around;
     column-gap: 0;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 28px 32px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #d3d3d3;
+    padding: 0;
+    padding-top: 26px;
+    margin-left: 111px;
   }
 }
