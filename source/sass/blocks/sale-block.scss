@@ -7,13 +7,20 @@
   background-size: 100% auto;
   background-position: center;
   width: 100%;
-  min-height: 289px;
   margin-top: 55px;
   margin-bottom: 35px;
   position: relative;
 
+  @media (min-width: $tablet-width) {
+    height: 200px;
+    width: 707px;
+  }
+
   @media (min-width: $desktop-width) {
     width: 244px;
+    height: 288px;
+    background-size: auto;
+    margin-left: 80px;
   }
 }
 
@@ -25,6 +32,10 @@
   position: absolute;
   top: 58px;
   left: 121px;
+
+  @media (min-width: $desktop-width) {
+    left: 80px;
+  }
 }
 
 .sale-block__description {
@@ -35,7 +46,23 @@
   line-height: 109%;
   color: $white;
   text-align: center;
-  margin-top: 186px;
+  padding-top: 186px;
+  padding-bottom: 43px;
   padding-left: 58px;
   padding-right: 61px;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 71px;
+    padding-left: 422px;
+    padding-right: 124px;
+    padding-bottom: 69px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 184px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 42px;
+  }
 }
