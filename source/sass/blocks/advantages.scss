@@ -23,7 +23,6 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    justify-content: space-around;
   }
 }
 
@@ -38,6 +37,7 @@
   @media (min-width: $desktop-width) {
     width: 570px;
     height: 374px;
+    margin-left: 80px;
   }
 }
 
@@ -145,4 +145,8 @@
   margin-top: 20px;
   background-color: $milk;
   padding: 20px;
+
+  @media (min-width: $desktop-width) {
+    padding: 50px 116px;
+  }
 }

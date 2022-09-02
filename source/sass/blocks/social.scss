@@ -31,12 +31,6 @@
   padding: 0;
   padding-top: 34px;
   padding-bottom: 30px;
-  border-top: 1px solid #d3d3d3;
-  border-bottom: 1px solid #d3d3d3;
-
-  @media (min-width: $tablet-width) {
-    border: 0;
-  }
 }
 
 .social__item {
