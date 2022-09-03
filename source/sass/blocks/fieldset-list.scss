@@ -49,6 +49,19 @@
   color: $grey;
   border: 1px solid #e7e7e7;
   margin: 0;
+  appearance: none;
+}
+
+.fieldset-list__input:hover {
+  border-color: #cdcdcd;
+}
+
+.fieldset-list__input:focus {
+  border-color: $grey;
+}
+
+.fieldset-list__input:disabled {
+  border-color: #ff8282;
 }
 
 .fieldset-list__input--name {

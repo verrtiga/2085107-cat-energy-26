@@ -58,10 +58,19 @@
   border-radius: 50%;
   background-color: $white;
   border: 1px solid #cdcdcd;
+  appearance: none;
 
   @media (min-width: $tablet-width) {
     margin-left: 30px;
   }
+}
+
+.radio-list__mark:hover {
+  border-color: #bababa;
+}
+
+.radio-list:disabled {
+  opacity: 0.3;
 }
 
 .radio-list__input[type="radio"]:checked + .radio-list__mark::before {
