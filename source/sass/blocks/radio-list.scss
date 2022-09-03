@@ -1,9 +1,28 @@
 @use "../abstract" as *;
 
 .radio-list {
+  position: relative;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 26px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 75px;
+  }
+
+  @media (min-width: $tablet-width) {
+    border: 1px solid #e7e7e7;
+    padding: 30px;
+    padding-right: 100px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 80px;
+    padding: 28px 30px;
+    padding-right: 149px;
+  }
 }
 
 .radio-list__item {
@@ -11,7 +30,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 76px;
+  line-height: 112%;
   text-transform: uppercase;
   color: $black2;
   margin-bottom: 25px;
@@ -19,4 +38,40 @@
   @media (min-width: $tablet-width) {
     line-height: 100%;
   }
+}
+
+.radio-list__label {
+  margin-left: 50px;
+}
+
+.radio-list__input {
+  position: absolute;
+  border: 0;
+  padding: 0;
+}
+
+.radio-list__mark {
+  position: absolute;
+  width: 30px;
+  left: 0;
+  height: 30px;
+  border-radius: 50%;
+  background-color: $white;
+  border: 1px solid #cdcdcd;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 30px;
+  }
+}
+
+.radio-list__input[type="radio"]:checked + .radio-list__mark::before {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 8px;
+  margin: auto;
+  width: 13px;
+  height: 13px;
+  background-color: $green;
+  border-radius: 50%;
 }

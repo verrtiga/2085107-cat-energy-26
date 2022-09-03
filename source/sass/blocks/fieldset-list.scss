@@ -5,10 +5,23 @@
   margin: 0;
   margin-bottom: 25px;
   padding: 0;
+  border-bottom: 1px solid #e7e7e7;
+
+  @media (min-width: $tablet-width) {
+    border: 0;
+  }
 }
 
 .fieldset-list__item {
-  padding-bottom: 41px;
+  margin-bottom: 14px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 30px;
+  }
 }
 
 .fieldset-list__label {
@@ -34,19 +47,65 @@
   line-height: 18px;
   text-transform: uppercase;
   color: $grey;
+  border: 1px solid #e7e7e7;
+  margin: 0;
 }
 
-// .fieldset-list__input--name {
-//   width: 229px;
+.fieldset-list__input--name {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 19px;
+  padding-right: 49px;
+  margin: 0;
 
-//   @media (min-width: $tablet-width) {
-//     width: 567px;
-//   }
+  @media (min-width: $tablet-width) {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 19px;
+    padding-right: 366px;
+  }
 
-//   @media (min-width: $tablet-width) {
-//     width: 506px;
-//   }
-// }
-// .fieldset-list__input--age {
-//   width: 172px;
-// }
+  @media (min-width: $desktop-width) {
+    padding-right: 327px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 19px;
+  }
+}
+
+.fieldset-list__input--kg {
+  padding-top: 13px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 29px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 19px;
+    padding-right: 342px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-right: 303px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.fieldset-list__input--age {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 8px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 19px;
+    padding-right: 300px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-right: 264px;
+  }
+}

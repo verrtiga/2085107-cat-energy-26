@@ -1,5 +1,11 @@
 @use "../abstract" as *;
 
+.main-form {
+  @media (min-width: $tablet-width) {
+    padding: 0 70px;
+  }
+}
+
 .main-form__title {
   font-family: $oswald;
   font-style: normal;
@@ -9,8 +15,14 @@
   margin: 0;
   padding: 0;
   color: $black;
-  margin-top: 27px;
-  margin-bottom: 37px;
+  padding-top: 27px;
+  padding-bottom: 37px;
+  border-top: 1px solid #d3d3d3;
+  padding-left: 20px;
+
+  @media (min-width: $tablet-width) {
+    border: 0;
+  }
 }
 
 .main-form__description {
@@ -18,14 +30,15 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 87%;
+  line-height: 129%;
   text-transform: uppercase;
   color: $black;
   margin: 0;
   margin-bottom: 40px;
+  padding-left: 20px;
 
   @media (min-width: $tablet-width) {
-    line-height: 101%;
+    line-height: 150%;
   }
 }
 
@@ -40,9 +53,10 @@
 
 .fieldset-list-radio-wrapper {
   display: block;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media (min-width: $desktop-width) {
     display: flex;
-    justify-content: space-around;
   }
 }
