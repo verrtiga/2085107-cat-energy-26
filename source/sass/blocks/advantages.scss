@@ -137,6 +137,14 @@
   }
 }
 
+.advantages__link:hover {
+  opacity: 0.7;
+}
+
+.advantages__link:active {
+  opacity: 0.5;
+}
+
 .advantages__link > svg {
   padding-left: 15px;
 }
