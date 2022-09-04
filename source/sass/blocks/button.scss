@@ -63,3 +63,16 @@
     padding: 7px 26px;
   }
 }
+
+.main-form__button {
+  padding: 7px 44px;
+
+  @media (min-width: $tablet-width) {
+    padding: 13px 45px;
+    height: 52px;
+
+    @media (min-width: $desktop-width) {
+      padding: 13px 188px;
+    }
+  }
+}

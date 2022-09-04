@@ -49,6 +49,23 @@
   font-size: 14px;
   line-height: 16px;
   color: $black;
+  text-align: center;
+  margin-top: 21px;
+  margin-bottom: 31px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 61px;
+  }
+}
+
+.main-form__send {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
 }
 
 .fieldset-list-radio-wrapper {

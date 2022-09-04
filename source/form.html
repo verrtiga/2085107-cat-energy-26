@@ -63,20 +63,23 @@
             </ul>
             <ul class="radio-list">
               <li class="radio-list__item">
+                <label class="radio-list__label" for="skinny">Похудение
                 <input class="radio-list__input visually-hidden" type="radio" value="Skinny" name="Food-for" id="skinny"
                   checked>
                 <span class="radio-list__mark"></span>
-                <label class="radio-list__label" for="skinny">Похудение </label>
+               </label>
               </li>
               <li class="radio-list__item">
+                <label class="radio-list__label" for="fat">Набор массы
                 <input class="radio-list__input visually-hidden" type="radio" value="Fat" name="Food-for" id="fat">
                 <span class="radio-list__mark"></span>
-                <label class="radio-list__label" for="fat">Набор массы </label>
+              </label>
               </li>
               <li class="radio-list__item">
+                <label class="radio-list__label" for="help">Не знаю (нужен ваш совет)
                 <input class="radio-list__input visually-hidden" type="radio" value="help" name="Food-for" id="help">
                 <span class="radio-list__mark"></span>
-                <label class="radio-list__label" for="help">Не знаю (нужен ваш совет) </label>
+                </label>
               </li>
             </ul>
           </div>
@@ -115,29 +118,35 @@
           </div>
           <ul class="fieldset-additional__list">
             <li class="fieldset-additional__item">
-              <label class="fieldset-additional__label"> Сахарозаменитель
-                <input class="fieldset-additional__input" type="checkbox" checked>
+              <label class="fieldset-additional__label" for="sugar"> Сахарозаменитель
+              <input class="fieldset-additional__input visually-hidden" id="sugar" type="checkbox" checked>
+              <span class="fieldset-additional__control"></span>
               </label>
             </li>
             <li class="fieldset-additional__item">
-              <label class="fieldset-additional__label"> Питьевая вода
-                <input class="fieldset-additional__input" type="checkbox">
+              <label class="fieldset-additional__label" for="water"> Питьевая вода
+              <input class="fieldset-additional__input visually-hidden" id="water" type="checkbox">
+              <span class="fieldset-additional__control"></span>
               </label>
             </li>
             <li class="fieldset-additional__item">
-              <label class="fieldset-additional__label"> Молоко
-                <input class="fieldset-additional__input" type="checkbox">
+              <label class="fieldset-additional__label" for="milk"> Молоко
+              <input class="fieldset-additional__input visually-hidden" id="milk" type="checkbox">
+              <span class="fieldset-additional__control"></span>
               </label>
             </li>
             <li class="fieldset-additional__item">
-              <label class="fieldset-additional__label"> Витамины
-                <input class="fieldset-additional__input" type="checkbox">
+              <label class="fieldset-additional__label" for="vitamin"> Витамины
+              <input class="fieldset-additional__input visually-hidden" id="vitamin" type="checkbox">
+              <span class="fieldset-additional__control"></span>
               </label>
             </li>
           </ul>
         </div>
+        <div class="main-form__send">
         <button class="main-form__button button" type="submit"> Отправить заявку</button>
         <span class="main-form__required"> * - Обязательные поля</span>
+      </div>
       </form>
       <article class="location">
         <div class="location-container">

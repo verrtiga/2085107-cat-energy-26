@@ -1,18 +1,38 @@
 @use "../abstract" as *;
 
+.fieldset-additional {
+  padding: 0 20px;
+  position: relative;
+}
+
+.fieldset-additional::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: $green;
+  position: absolute;
+  top: 10px;
+  z-index: 0;
+}
+
 .fieldset-additional__title {
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
+  padding-right: 20px;
   font-family: $oswald;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 73%;
   color: $black;
+  background-color: $white;
+  width: fit-content;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     line-height: 67%;
+    padding-left: 20px;
   }
 }
 
@@ -20,6 +40,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-left: 68px;
 
   @media (min-width: $tablet-width) {
     display: grid;
@@ -27,13 +48,14 @@
     column-gap: 120px;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     display: flex;
+    justify-content: space-between;
   }
 }
 
 .fieldset-additional__item {
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .fieldset-additional__label {
@@ -44,8 +66,34 @@
   line-height: 76%;
   text-transform: uppercase;
   color: $black2;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     line-height: 100%;
   }
+}
+
+.fieldset-additional__control {
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-color: $white;
+  border: 1px solid #cdcdcd;
+  margin-left: -60px;
+
+  @media (min-width: $tablet-width) {
+    top: -5px;
+  }
+}
+
+.fieldset-additional__input[type="checkbox"]:checked + .fieldset-additional__control::before,
+.fieldset-additional__input[type="checkbox"]:checked + .fieldset-additional__control::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/check-icon.svg");
+  top: 10px;
+  left: 8px;
+  width: 24px;
+  height: 18px;
 }
