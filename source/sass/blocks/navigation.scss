@@ -36,8 +36,9 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     margin-top: 20px;
+    margin-left: 316px;
   }
 }
 
@@ -107,5 +108,9 @@
   @media (min-width: $tablet-width) {
     border-top: 0 solid transparent;
     padding-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 35px;
   }
 }

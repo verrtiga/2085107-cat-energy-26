@@ -9,7 +9,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1440px;
     display: flex;
     justify-content: space-between;
   }
@@ -28,8 +27,10 @@
 
   @media (min-width: $tablet-width) {
     width: 280px;
+    height: 51px;
   }
 }
+
 
 .header__toggle {
   position: relative;
@@ -106,5 +107,6 @@
 
   @media (min-width: $tablet-width) {
     left: 112px;
+    display: none;
   }
 }

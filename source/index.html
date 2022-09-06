@@ -16,7 +16,11 @@
   <header class="header">
     <div class="header-logo">
       <a class="header__logo" href="index.html">
-        <img src="img/logo-mobile.svg" width="33" height="37" alt="Логотип Кэт Энерджи">
+        <picture>
+          <source media="(min-width: 1280px)" srcset="img/logo-desktop.svg">
+          <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+          <img src="img/logo-mobile.svg" width="33" height="37" alt="Логотип Кэт Энерджи">
+        </picture>
         <img class="header__logo-text" src="img/cat-energy-logo.svg" width="101" height="18" alt="CAT ENERGY">
       </a>
       <button class="header__toggle header__toggle--open" type="button">
@@ -46,6 +50,11 @@
         <h1 class="hero-section__title"> Функциональное питание для котов</h1>
         <p class="hero-section__slogan"> Занялся собой? Займись котом!</p>
         <button class="button hero-section__button" type="button">Подобрать программу</button>
+        <picture>
+          <source media="(min-width: 1280px)" srcset="img/hero-logo-desktop.png 1x, img/hero-logo-desktop@2x.png 2x">
+          <source media="(min-width: 768px)" srcset="img/hero-logo-tablet.png 1x, img/hero-logo-tablet@2x.png 2x">
+        <img class="hero-section__logo" src="img/hero-logo-mobile.png" srcset="img/hero-logo-mobile@2x.png 2x" alt="Дизайн упаковки">
+      </picture>
       </section>
     </div>
     <section class="advantages">
