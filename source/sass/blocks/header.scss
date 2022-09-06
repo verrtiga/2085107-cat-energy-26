@@ -31,6 +31,21 @@
   }
 }
 
+.header_main-logo {
+  width: 33px;
+  height: 37px;
+
+  @media (min-width: $tablet-width) {
+    width: 174px;
+    height: 51px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 202px;
+    height: 59px;
+  }
+}
+
 
 .header__toggle {
   position: relative;
