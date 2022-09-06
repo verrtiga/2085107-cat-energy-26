@@ -53,8 +53,9 @@
         <picture>
           <source media="(min-width: 1280px)" srcset="img/hero-logo-desktop.png 1x, img/hero-logo-desktop@2x.png 2x">
           <source media="(min-width: 768px)" srcset="img/hero-logo-tablet.png 1x, img/hero-logo-tablet@2x.png 2x">
-        <img class="hero-section__logo" src="img/hero-logo-mobile.png" srcset="img/hero-logo-mobile@2x.png 2x" alt="Дизайн упаковки">
-      </picture>
+          <img class="hero-section__logo" src="img/hero-logo-mobile.png" srcset="img/hero-logo-mobile@2x.png 2x"
+            alt="Дизайн упаковки">
+        </picture>
       </section>
     </div>
     <section class="advantages">
@@ -66,10 +67,10 @@
             <p class="advantages__description">Ваш кот весит больше собаки и почти утратил способность лазить по
               деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
             <a class="advantages__link" href="catalog.html">Каталог SLIM
-            <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path stroke="#000" stroke-width="2" d="M0 6h18" />
-              <path d="m24 6-6.75 5.196V.804L24 6Z" fill="#000" />
-            </svg>
+              <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="#000" stroke-width="2" d="M0 6h18" />
+                <path d="m24 6-6.75 5.196V.804L24 6Z" fill="#000" />
+              </svg>
             </a>
           </div>
         </li>
@@ -79,10 +80,10 @@
             <p class="advantages__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat
               Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
             <a class="advantages__link" href="catalog.html">Каталог PRO
-            <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path stroke="#000" stroke-width="2" d="M0 6h18" />
-              <path d="m24 6-6.75 5.196V.804L24 6Z" fill="#000" />
-            </svg>
+              <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="#000" stroke-width="2" d="M0 6h18" />
+                <path d="m24 6-6.75 5.196V.804L24 6Z" fill="#000" />
+              </svg>
             </a>
           </div>
         </li>
@@ -115,7 +116,8 @@
     </section>
     <section class="example">
       <h2 class="example__title example__title--main"> Живой пример </h2>
-      <p class="example__main-description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy
+      <p class="example__main-description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat
+        Energy
         Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16
         часов в день. </p>
       <div class="example-info-container">
@@ -129,18 +131,31 @@
         </div>
         <h3 class="example__title"> Затраты на питание 15 000 руб</h3>
       </div>
-      <div class="container">
-        <div class="comparison">
-          <img src="#" class="#" width="545" height="520" alt="Худой кот">
-        </div>
-        <div class="comparison">
-          <img src="#" class="#" width="677" height="650" alt="Толстый кот">
-        </div>
-      </div>
       <div class="comparison">
-        <div class="comparison__range"></div>
-        <button class="range-toggle" type="button"></button>
+        <figure class="comparison__container">
+          <picture>
+            <source media="(min-width: 768px)"
+              srcset="img/comparison-skinny-tablet.png 1x, img/comparison-skinny-tablet@2x.png 2x">
+            <img class="comparison__skinny" src="img/comparison-skinny-mobile.png"
+              srcset="img/comparison-skinny-mobile@2x.png" width="280" height="256" alt="Худой кот">
+          </picture>
+          <div class="comparison__top">
+            <picture>
+            <source media="(min-width: 768px)"
+              srcset="img/comparison-fat-tablet.png 1x, img/comparison-fat-tablet@2x.png 2x">
+            <img class="comparison__fat" src="img/comparison-fat-mobile.png" srcset="img/comparison-fat-mobile@2x.png"
+              width="280" height="256" alt="Толстый кот">
+            </picture>
+          </div>
+          <div class="comparison__range">
+            <label class="visually-hidden" for="range">Кнопка перетаскивания.</label>
+            <input class="comparison__input" type="range" id="range">
+            <span class="comparison__arrow"></span>
+          </div>
+
+        </figure>
       </div>
+
     </section>
     <article class="location location--main">
       <div class="location-container">
@@ -190,7 +205,8 @@
     <span class="social__line"></span>
     <a class="html-logo" href="https://htmlacademy.ru/">
       <span class="html-logo__description">HTML Academy</span>
-      <svg class="html-logo__svg" width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg class="html-logo__svg" width="27" height="34" viewBox="0 0 27 34" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
         <path
           d="M13.643.016 13.5 0 0 1.407v24.606L13.5 34 27 26.013V1.407L13.643.016Zm11.591 25L13.5 31.956 1.766 25.015V14.93l11.685 6.916.02 1.253-8.017-4.743-.011 1.225 8.046 4.809.02 1.286-8.045-4.758-.01 1.226L13.5 26.95l8.124-4.833V16.91l3.62-2.15-.01 10.256Zm0-11.564-3.22 1.88-1.482.875-7.065-4.187-.011 1.225 6.04 3.573-.053.031-.13.076-.86.492-4.986-2.948-.011 1.225 3.936 2.328-.933.61-.021.012-2.971-1.742-.011 1.225 1.947 1.135-1.988 1.186-11.618-6.872 11.638-6.958 11.8 6.834Zm0-1.225L13.44 5.31 1.766 12.22V2.99L13.5 1.764 25.234 2.99v9.237Z"
           fill="#666" />

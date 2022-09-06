@@ -2,18 +2,85 @@
 
 .comparison {
   position: relative;
+  --comparison: 50%;
+
+  @media (min-width: $tablet-width) {
+    width: 690px;
+  }
+}
+
+.comparison__top {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: var(--comparison, 50%);
+  overflow: hidden;
+  background-color: $milk;
+}
+
+.comparison__skinny {
+  width: 100%;
+
+
+  @media (min-width: $tablet-width) {
+    width: 560px;
+    height: 512px;
+  }
+}
+
+.comparison__fat {
+  @media (min-width: $tablet-width) {
+    width: 560px;
+    height: 512px;
+  }
 }
 
 .comparison__range {
   position: absolute;
-  height: 256px;
-  width: 4px;
-  background-color: #666666;
-  margin-left: 136px;
+  transform: rotate(90deg);
+  top: 133px;
+  left: 2px;
+  width: 100%;
+  appearance: none;
 }
 
-.range-toggle {
+.comparison__range::before,
+.comparison__range::after {
+  content: "";
   position: absolute;
-  left: 129px;
-  top: 107px;
+  display: block;
+  width: 4px;
+  height: 256px;
+  background: #666666;
+  left: 143px;
+  top: -124px;
+  border-radius: 2px;
+  transform: rotate(90deg);
+
+  @media (min-width: $tablet-width) {
+    height: 512px;
+    left: 457px;
+    top: -253px;
+  }
+}
+
+.comparison__input[type=range] {
+  width: 256px;
+  display: none;
+}
+
+.comparison__arrow {
+  position: absolute;
+  background-image: url("../img/comparison-arrow.svg");
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  transform: rotate(90deg);
+  left: 125px;
+  top: -16px;
+
+  @media (min-width: $tablet-width) {
+    left: 426px;
+  }
 }
