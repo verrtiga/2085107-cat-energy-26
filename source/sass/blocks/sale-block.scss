@@ -11,6 +11,10 @@
   margin-bottom: 35px;
   position: relative;
 
+  @media (min-resolution: 2dppx) {
+    background-image: linear-gradient(hsl(97 53% 47% / 85%), hsl(97 53% 47% / 85%)), url("../img/sale-block@2x.png");
+  }
+
   @media (min-width: $tablet-width) {
     height: 200px;
     width: 707px;

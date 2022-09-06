@@ -1,6 +1,7 @@
 @use "../abstract" as *;
 
 .product-card {
+  position: relative;
   background-color: transparent;
   display: grid;
   grid-template-columns: 141px 141px;
@@ -9,13 +10,15 @@
   border-top: 1px solid #d9d9d9;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 100%;
+
 
   @media (min-width: $tablet-width) {
     background-color: $milk;
     width: 324px;
     border: none;
     display: block;
+    padding-top: 124px;
+    padding-bottom: 39px;
   }
 
   @media (min-width: $desktop-width) {
@@ -50,6 +53,7 @@
 }
 
 .product-card__container {
+  position: relative;
   min-height: 112px;
 
   @media (min-width: $tablet-width) {
@@ -88,9 +92,19 @@
 
 .product-card__img {
   margin-left: 50px;
+  width: 68px;
+  height: 86px;
 
   @media (min-width: $tablet-width) {
     margin-left: 100px;
+    width: 161px;
+    height: 172px;
+    position: absolute;
+    margin-top: -170px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 44px;
   }
 }
 
