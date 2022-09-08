@@ -51,6 +51,11 @@
         <p class="hero-section__slogan"> Занялся собой? Займись котом!</p>
         <button class="button hero-section__button" type="button">Подобрать программу</button>
         <picture>
+          <source type="image/webp" media="(min-width: 1280px)"
+            srcset="img/hero-logo-desktop.webp 1x, img/hero-logo-desktop@2x.webp 2x">
+          <source type="image/webp" media="(min-width: 768px)"
+            srcset="img/hero-logo-tablet.webp 1x, img/hero-logo-tablet@2x.webp 2x">
+          <source type="image/webp" srcset="img/hero-logo-mobile.webp 1x, img/hero-logo-mobile@2x.webp 2x">
           <source media="(min-width: 1280px)" srcset="img/hero-logo-desktop.png 1x, img/hero-logo-desktop@2x.png 2x">
           <source media="(min-width: 768px)" srcset="img/hero-logo-tablet.png 1x, img/hero-logo-tablet@2x.png 2x">
           <img class="hero-section__logo" src="img/hero-logo-mobile.png" srcset="img/hero-logo-mobile@2x.png 2x"
