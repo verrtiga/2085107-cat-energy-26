@@ -1,5 +1,6 @@
- <svg xmlns="http://www.w3.org/2000/svg">
-    <symbol viewBox="0 0 24 12" id="advantages-arrow">
+
+  <svg xmlns="http://www.w3.org/2000/svg">
+      <symbol viewBox="0 0 24 12" id="advantages-arrow">
       <path stroke="#000" stroke-width="2" d="M0 6h18" />
       <path d="m24 6-6.75 5.196V.804L24 6Z" fill="#000" />
     </symbol>
