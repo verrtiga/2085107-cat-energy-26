@@ -44,9 +44,9 @@
       </div>
     </nav>
   </header>
-  <main class="global-container">
+  <main>
     <div class="hero-section-wrapper">
-      <section class="hero-section">
+      <section class="hero-section global-container">
         <h1 class="hero-section__title"> Функциональное питание для котов</h1>
         <p class="hero-section__slogan"> Занялся собой? Займись котом!</p>
         <button class="button hero-section__button" type="button">Подобрать программу</button>
@@ -63,7 +63,7 @@
         </picture>
       </section>
     </div>
-    <section class="advantages">
+    <section class="advantages global-container">
       <h2 class="advantages__title visually-hidden">Список преимуществ.</h2>
       <ul class="advantages__list">
         <li class="advantages__item advantages__item--slim">
@@ -76,7 +76,6 @@
                 <use href="img/sprite.svg#advantages-arrow"></use>
               </svg>
             </a>
-          </div>
         </li>
         <li class="advantages__item advantages__item--strong">
           <div class="advantages-container">
@@ -91,8 +90,10 @@
           </div>
         </li>
       </ul>
+      </div>
     </section>
-    <section class="instruction">
+    <section class="instruction global-container">
+      <div class="global-container">
       <h2 class="instruction__title"> Как это работает</h2>
       <div class="instruction-container">
         <ul class="instruction__list">
@@ -116,8 +117,9 @@
           </li>
         </ul>
       </div>
+    </div>
     </section>
-    <section class="example">
+    <section class="example global-container">
       <h2 class="example__title example__title--main"> Живой пример </h2>
       <p class="example__main-description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat
         Energy
@@ -173,6 +175,7 @@
     </article>
   </main>
   <footer class="social">
+    <div class="global-container social-wrapper">
     <img class="social__logo" src="img/footer-logo.svg" width="128" height="24" alt="CAT ENERGY.">
     <span class="social__line"></span>
     <ul class="social__list">
@@ -207,6 +210,7 @@
         <use href="img/sprite.svg#html-footer"></use>
       </svg>
     </a>
+  </div>
   </footer>
   <script src="js/script.js"></script>
 </body>

@@ -1,10 +1,8 @@
 @use "../abstract" as *;
 
-.hero-section {
-  position: relative;
-
-  @media (min-width: $desktop-width) {
-    width: 1280px;
+.hero-section-wrapper {
+  @media (min-width: $tablet-width) {
+    position: relative;
   }
 }
 
@@ -23,7 +21,6 @@
   @media (min-width: $tablet-width) {
     background-image: none;
     background-color: transparent;
-    width: 768px;
   }
 
   @media (min-width: $desktop-width) {
@@ -31,29 +28,18 @@
     content: "";
     width: 715px;
     height: 694px;
-    right: -84px;
+    right: 0;
+    left: calc(( 100% - 1280px) / 2 + 750px);
     top: -141px;
     background-image: linear-gradient(hsl(97 53% 47% / 85%), hsl(97 53% 47% / 85%)), url("../img/index-background-desktop.png");
-    background-position: bottom;
+    background-position: left bottom;
     background-repeat: no-repeat;
+    background-size: auto 694px;
     z-index: -1;
 
     @media (min-resolution: 2dppx) {
       background-image: linear-gradient(hsl(97 53% 47% / 85%), hsl(97 53% 47% / 85%)), url("../img/index-background-desktop@2x.png");
     }
-  }
-}
-
-.hero-section-wrapper {
-  width: 320px;
-
-  @media (min-width: $tablet-width) {
-    width: 768px;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 1440px;
-    height: 450px;
   }
 }
 

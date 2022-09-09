@@ -1,10 +1,7 @@
 @use "../abstract" as *;
 
 .header {
-  width: 100%;
-
   @media (min-width: $tablet-width) {
-    width: 768px;
     display: flex;
   }
 
@@ -21,12 +18,10 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
   padding: 0 20px;
   min-height: 66px;
 
   @media (min-width: $tablet-width) {
-    width: 280px;
     height: 51px;
   }
 }

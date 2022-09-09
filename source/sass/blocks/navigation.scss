@@ -1,20 +1,12 @@
 @use "../abstract" as *;
 
-.navigation {
-  width: 100%;
-
-  @media (min-width: $tablet-width) {
-    width: 768px;
-    padding-right: 20px;
-  }
-}
-
 .navigation__container--open {
   position: absolute;
   visibility: hidden;
 
   @media (min-width: $tablet-width) {
     visibility: visible;
+    position: unset;
   }
 }
 
@@ -23,7 +15,6 @@
   margin: 0;
   text-align: center;
   background-color: $white;
-  width: 100%;
   z-index: 10;
 
   @media (min-width: $tablet-width) {
@@ -31,14 +22,11 @@
     justify-content: space-between;
     margin-top: 20px;
     background-color: transparent;
-    width: 100%;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
-    justify-content: flex-end;
     margin-top: 20px;
-    margin-left: 226px;
   }
 }
 
@@ -108,9 +96,10 @@
   @media (min-width: $tablet-width) {
     border-top: 0 solid transparent;
     padding-top: 0;
+    margin-left: 30px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-right: 35px;
+    margin-right: 6px;
   }
 }
