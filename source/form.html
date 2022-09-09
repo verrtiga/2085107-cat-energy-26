@@ -43,15 +43,15 @@
       </div>
     </nav>
   </header>
-  <main class="global-container">
+  <main>
     <section class="fieldset-info">
       <form class="main-form" action="https://echo.htmlacademy.ru/courses" method="get">
         <h1 class="main-form__title">Подбор программы</h1>
         <p class="main-form__description">Заполните анкету, и мы подберем
           программу питания для вашего кота</p>
         <div class="fieldset-name-container">
-          <div class="fieldset-list-radio-wrapper">
-            <ul class="fieldset-list">
+          <div class="global-container">
+            <ul class="fieldset-list global-container">
               <li class="fieldset-list__item">
                 <label class="fieldset-list__label">ИМЯ:*
                   <input class="fieldset-list__input fieldset-list__input--name" type="text" placeholder="Барсик"
@@ -91,7 +91,7 @@
               </li>
             </ul>
           </div>
-          <div class="fieldset-contacts">
+          <div class="fieldset-contacts global-container">
             <div class="line-container">
               <h2 class="fieldset-contacts__title">Контактные данные (владельца кота)</h2>
             </div>
@@ -113,14 +113,14 @@
             </ul>
           </div>
         </div>
-        <div class="fieldset-comment">
+        <div class="fieldset-comment global-container">
           <div class="line-container">
             <h2 class="fieldset-comment__title"> Комментарий </h2>
           </div>
           <textarea class="fieldset-comment__textarea" name="comment" rows="5" cols="33"
             placeholder="Расскажите обо всех повАдках кота"></textarea>
         </div>
-        <div class="fieldset-additional">
+        <div class="fieldset-additional global-container">
           <div class="line-container">
             <h2 class="fieldset-additional__title"> Дополнительно </h2>
           </div>

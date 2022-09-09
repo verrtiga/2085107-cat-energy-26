@@ -68,12 +68,3 @@
   }
 }
 
-.fieldset-list-radio-wrapper {
-  display: block;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-  }
-}
