@@ -1,5 +1,9 @@
 @use "../abstract" as *;
 
+.navigation {
+  margin-left: auto;
+}
+
 .navigation__container--open {
   position: absolute;
   visibility: hidden;
@@ -11,6 +15,7 @@
 }
 
 .navigation__list {
+  padding: 0;
   list-style-type: none;
   margin: 0;
   text-align: center;

@@ -33,7 +33,7 @@
     font-size: 16px;
     line-height: 130%;
     display: grid;
-    grid-template-columns: 280px 280px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     grid-row-gap: 200px;
     grid-column-gap: 150px;
@@ -50,6 +50,7 @@
 .instruction__item {
   position: relative;
   padding-bottom: 26px;
+  min-height: 54px;
 
   @media (min-width: $tablet-width) {
     counter-increment: instruction-counter;
@@ -65,7 +66,7 @@
   color: $milk;
   top: 100px;
   z-index: -1;
-  right: -9px;
+  left: 150px;
 
   @media (min-width: $tablet-width) {
     content: counter(instruction-counter);
@@ -73,7 +74,8 @@
 
   @media (min-width: $desktop-width) {
     top: 17px;
-    right: -15px;
+    right: 0;
+    left: 91px;
   }
 }
 

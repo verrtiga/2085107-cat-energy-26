@@ -11,21 +11,6 @@
   }
 }
 
-
-.header-logo {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-  min-height: 66px;
-
-  @media (min-width: $tablet-width) {
-    height: 51px;
-  }
-}
-
 .header__main-logo {
   width: 33px;
   height: 37px;

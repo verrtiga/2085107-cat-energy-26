@@ -18,21 +18,3 @@
     text-align: left;
   }
 }
-
-
-.catalog-wrapper {
-  display: block;
-
-  @media (min-width: $tablet-width) {
-    display: grid;
-    grid-template-columns: 324px 324px;
-    column-gap: 60px;
-    row-gap: 90px;
-    padding: 68px 30px;
-  }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}

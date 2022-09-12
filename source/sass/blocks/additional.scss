@@ -14,15 +14,6 @@
   position: relative;
 }
 
-.additional-container {
-  display: block;
-  position: relative;
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-  }
-}
-
 .additional__table {
   @media (min-width: $tablet-width) {
     border: 1px solid #d3d3d3;

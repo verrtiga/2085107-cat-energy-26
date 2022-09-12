@@ -31,6 +31,10 @@ body {
   @media (min-width: $tablet-width) {
     padding: 0 30px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 1280px;
+  }
 }
 
 .line-container {
@@ -43,5 +47,106 @@ body {
 
   @media (min-width: $desktop-width) {
     width: 1130px;
+  }
+}
+
+.example-info-container {
+  display: grid;
+  grid-template-columns: 124px 124px;
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+  column-gap: 32px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+.header-logo {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 66px;
+
+  @media (min-width: $tablet-width) {
+    height: 51px;
+  }
+}
+
+.location-container {
+  display: grid;
+  grid-template-columns: 138px 138px;
+
+  @media (min-width: $tablet-width) {
+    column-gap: 290px;
+    margin-left: 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    z-index: 1;
+    width: 565px;
+    background-color: $white;
+    grid-template-columns: 176px 231px;
+    column-gap: 80px;
+    height: 198px;
+    position: absolute;
+    top: 95px;
+    left: 110px;
+  }
+}
+
+.hero-section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section-wrapper {
+  @media (min-width: $tablet-width) {
+    position: relative;
+  }
+}
+
+.catalog-wrapper {
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 324px 324px;
+    column-gap: 60px;
+    row-gap: 90px;
+    padding: 68px 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.advantages-container {
+  margin-top: 20px;
+  background-color: $milk;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @media (min-width: $desktop-width) {
+    padding: 50px 116px;
+  }
+}
+
+.additional-container {
+  display: block;
+  position: relative;
+
+  @media (min-width: $desktop-width) {
+    display: flex;
   }
 }

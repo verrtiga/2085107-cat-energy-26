@@ -8,28 +8,6 @@
   }
 }
 
-.location-container {
-  display: grid;
-  grid-template-columns: 138px 138px;
-
-  @media (min-width: $tablet-width) {
-    column-gap: 290px;
-    margin-left: 70px;
-  }
-
-  @media (min-width: $desktop-width) {
-    z-index: 1;
-    width: 565px;
-    background-color: $white;
-    grid-template-columns: 176px 231px;
-    column-gap: 80px;
-    height: 198px;
-    position: absolute;
-    top: 95px;
-    left: 110px;
-  }
-}
-
 .location--main {
   background-color: $white;
 }

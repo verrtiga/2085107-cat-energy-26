@@ -1,5 +1,10 @@
 @use "../abstract" as *;
 
+.social {
+  background-color: $milk;
+  width: 100%;
+}
+
 .social__list {
   display: flex;
   list-style-type: none;
@@ -54,7 +59,6 @@
 
 .social-wrapper {
   display: flex;
-  background-color: $milk;
   align-items: center;
   flex-direction: column;
 

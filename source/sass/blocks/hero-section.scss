@@ -1,9 +1,8 @@
 @use "../abstract" as *;
 
-.hero-section-wrapper {
-  @media (min-width: $tablet-width) {
-    position: relative;
-  }
+.hero-section {
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-section::before {
@@ -13,23 +12,22 @@
   background-image: linear-gradient(hsl(97 53% 47% / 85%), hsl(97 53% 47% / 85%)), url("../img/index-background.png");
   background-color: #adff2f;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-position: center;
-  width: 100%;
+  right: 0;
+  left: 0;
   height: 302px;
 
   @media (min-width: $tablet-width) {
-    background-image: none;
-    background-color: transparent;
+    display: none;
   }
 
   @media (min-width: $desktop-width) {
-    position: absolute;
-    content: "";
-    width: 715px;
+    display: block;
+    min-width: 715px;
     height: 694px;
     right: 0;
-    left: calc(( 100% - 1280px) / 2 + 750px);
+    left: calc(( 100% - 1280px) / 2 + 686px);
     top: -141px;
     background-image: linear-gradient(hsl(97 53% 47% / 85%), hsl(97 53% 47% / 85%)), url("../img/index-background-desktop.png");
     background-position: left bottom;
@@ -41,11 +39,6 @@
       background-image: linear-gradient(hsl(97 53% 47% / 85%), hsl(97 53% 47% / 85%)), url("../img/index-background-desktop@2x.png");
     }
   }
-}
-
-.hero-section-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .hero-section__title {
@@ -114,12 +107,12 @@
 }
 
 .hero-section__logo {
-  margin-top: 29px;
-  margin-left: 20px;
-  margin-right: 20px;
+  display: block;
+  margin: 29px auto 0;
 
   @media (min-width: $desktop-width) {
     margin-top: -69px;
     margin-left: 500px;
   }
 }
+

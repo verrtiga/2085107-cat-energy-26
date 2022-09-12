@@ -2,8 +2,13 @@
 
 .example {
   background-color: $milk;
-  padding-left: 20px;
   min-height: 659px;
+}
+
+.example__wrapper {
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }
 
 .example__title {
@@ -64,24 +69,6 @@
 
   @media (min-width: $tablet-width) {
     width: 142px;
-  }
-}
-
-.example-info-container {
-  display: grid;
-  grid-template-columns: 124px 124px;
-  grid-template-rows: auto;
-  justify-content: space-evenly;
-  column-gap: 32px;
-
-  @media (min-width: $tablet-width) {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: flex-start;
   }
 }
 
