@@ -17,12 +17,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 84%;
+  line-height: 125%;
   text-decoration: none;
   color: $black;
 
   @media (min-width: $tablet-width) {
-    line-height: 88%;
+    line-height: 130%;
   }
 
   @media (min-width: $desktop-width) {
@@ -36,11 +36,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 124%;
+  line-height: 143%;
   color: $grey;
 
   @media (min-width: $tablet-width) {
-    line-height: 109%;
+    line-height: 125%;
 
     @media (min-width: $desktop-width) {
       margin-top: 60px;

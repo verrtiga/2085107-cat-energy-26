@@ -68,18 +68,18 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 84%;
+  line-height: 125%;
   text-transform: uppercase;
   color: $black;
   margin: 0;
   margin-bottom: 15px;
 
   @media (min-width: $tablet-width) {
-    line-height: 81%;
+    line-height: 120%;
   }
 
   @media (min-width: $desktop-width) {
-    line-height: 71%;
+    line-height: 105%;
   }
 }
 
@@ -143,10 +143,12 @@
 
 .product-card__td {
   padding-right: 74px;
+  line-height: 133%;
 
   @media (min-width: $tablet-width) {
     border-bottom: 1px solid #d3d3dd;
     padding: 16px 40px;
+    line-height: 100%;
 
     @media (min-width: $desktop-width) {
       padding: 16px 26px;
