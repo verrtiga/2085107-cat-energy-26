@@ -24,14 +24,14 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 73%;
+  line-height: 108%;
   color: $black;
   background-color: $white;
   width: fit-content;
   position: relative;
 
   @media (min-width: $tablet-width) {
-    line-height: 67%;
+    line-height: 100%;
     padding-left: 20px;
   }
 }
@@ -63,14 +63,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 76%;
+  line-height: 112%;
   text-transform: uppercase;
   color: $black2;
   position: relative;
-
-  @media (min-width: $tablet-width) {
-    line-height: 100%;
-  }
 }
 
 .fieldset-additional__control {
