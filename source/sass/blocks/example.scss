@@ -16,7 +16,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 96%;
+  line-height: 111%;
   color: $black;
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@
   padding-left: 29px;
 
   @media (min-width: $tablet-width) {
-    line-height: 67%;
+    line-height: 100%;
   }
 }
 
@@ -47,13 +47,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 112%;
+  line-height: 129%;
   color: $grey;
   padding-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
-    line-height: 130%;
+    line-height: 150%;
   }
 
   @media (min-width: $desktop-width) {
@@ -78,14 +78,14 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 24px;
+  line-height: 100%;
   color: $black;
   left: 42px;
   top: 14px;
 
   @media (min-width: $tablet-width) {
     font-size: 30px;
-    line-height: 37px;
+    line-height: 123%;
   }
 }
 
@@ -102,5 +102,22 @@
 
   @media (min-width: $tablet-width) {
     width: 162px;
+  }
+}
+
+.example__little-title {
+  font-family: $oswald;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    line-height: 100%;
   }
 }

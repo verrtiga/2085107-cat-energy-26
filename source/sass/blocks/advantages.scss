@@ -68,7 +68,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 104%;
+  line-height: 154%;
   margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -79,7 +79,7 @@
 
   @media (min-width: $tablet-width) {
     font-size: 36px;
-    line-height: 67%;
+    line-height: 100%;
   }
 }
 
@@ -88,7 +88,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 112%;
+  line-height: 129%;
   color: $grey;
   margin: 0;
   padding-bottom: 42px;
@@ -97,7 +97,7 @@
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
-    line-height: 130%;
+    line-height: 150%;
   }
 }
 

@@ -5,14 +5,14 @@
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
-  line-height: 75%;
+  line-height: 111%;
   color: $black;
   margin: 0;
   padding-bottom: 42px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
-    line-height: 67%;
+    line-height: 100%;
   }
 }
 
@@ -113,6 +113,11 @@
 }
 
 .instruction__description {
+  line-height: 129%;
   margin: 0;
   padding-left: 70px;
+
+  @media (min-width: $tablet-width) {
+    line-height: 150%;
+  }
 }
