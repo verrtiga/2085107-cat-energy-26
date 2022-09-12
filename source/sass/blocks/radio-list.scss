@@ -70,6 +70,11 @@
   border-color: #bababa;
 }
 
+.radio-list__input[type="radio"]:focus + .radio-list__mark {
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 0 2px #cdcdcd;
+}
+
 .radio-list:disabled {
   opacity: 0.3;
 }
