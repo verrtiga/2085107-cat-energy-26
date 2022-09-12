@@ -21,14 +21,14 @@
 }
 
 .hero-section__button {
-  line-height: 87%;
   width: 244px;
   padding: 14px 26px;
   margin: 0 auto;
   order: 1;
+  line-height: 129%;
 
   @media (min-width: $tablet-width) {
-    line-height: 67%;
+    line-height: 100%;
     margin-top: 50px;
     margin-left: 90px;
   }

@@ -42,12 +42,12 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 67%;
+  line-height: 100%;
   text-transform: uppercase;
   color: $black;
 
   @media (min-width: $tablet-width) {
-    line-height: 90%;
+    line-height: 133%;
   }
 
   @media (min-width: $desktop-width) {
