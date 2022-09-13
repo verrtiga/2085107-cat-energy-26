@@ -1,5 +1,11 @@
 @use "../abstract" as *;
 
+.instruction {
+  @media (min-width: $desktop-width) {
+    margin-top: 70px;
+  }
+}
+
 .instruction__title {
   font-family: $oswald;
   font-style: normal;
