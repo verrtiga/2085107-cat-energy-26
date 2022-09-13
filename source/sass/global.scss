@@ -150,3 +150,18 @@ body {
     display: flex;
   }
 }
+
+.additional-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.html-logo__svg {
+  margin-right: 30px;
+}
+
+.main-form-wrapper {
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
+}

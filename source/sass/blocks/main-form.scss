@@ -1,11 +1,5 @@
 @use "../abstract" as *;
 
-.main-form {
-  @media (min-width: $tablet-width) {
-    padding: 0 50px;
-  }
-}
-
 .main-form__title {
   font-family: $oswald;
   font-style: normal;

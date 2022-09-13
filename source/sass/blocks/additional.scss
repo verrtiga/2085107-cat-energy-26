@@ -3,6 +3,7 @@
 .additional::before {
   content: "";
   width: 100%;
+  left: 0;
   height: 2px;
   background-color: $green;
   position: absolute;
@@ -42,9 +43,8 @@
   width: fit-content;
   background-color: $white;
 
-  @media (min-width: $tablet-width) {
-    margin-right: 20px;
-  }
+  // @media (min-width: $tablet-width) {
+  // }
 }
 
 .additional__th {

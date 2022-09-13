@@ -24,7 +24,6 @@
 
   @media (min-width: $desktop-width) {
     display: block;
-    min-width: 715px;
     height: 694px;
     right: 0;
     left: calc(( 100% - 1280px) / 2 + 686px);
@@ -113,4 +112,3 @@
     margin-left: 500px;
   }
 }
-

@@ -8,6 +8,7 @@
 .fieldset-additional::before {
   content: "";
   width: 100%;
+  left: 0;
   height: 2px;
   background-color: $green;
   position: absolute;
