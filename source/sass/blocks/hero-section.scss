@@ -51,6 +51,7 @@
   font-size: 33px;
   line-height: 100%;
   color: $white;
+  margin-top: 72px;
 
   @media (min-width: $tablet-width) {
     color: $black;
@@ -108,7 +109,7 @@
   margin: 29px auto 0;
 
   @media (min-width: $desktop-width) {
-    margin-top: -69px;
+    margin-top: -190px;
     margin-left: 500px;
   }
 }

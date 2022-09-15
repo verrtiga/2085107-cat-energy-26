@@ -19,9 +19,11 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-right: 502px;
+    padding-right: 279px;
     padding-top: 30px;
-    padding-left: 88px;
+    padding-left: 37px;
+    min-width: 236px;
+    margin-left: 47px;
   }
 }
 
@@ -41,8 +43,8 @@
 }
 
 .radio-list__label {
-  margin-left: 50px;
   line-height: 112%;
+  margin-left: 47px;
 }
 
 .radio-list__input {
