@@ -15,7 +15,7 @@ import {deleteAsync} from 'del';
 
 // Styles
 
- export const styles = () => {
+export const styles = () => {
   return gulp.src('source/sass/style.scss', { sourcemaps: true })
   .pipe(plumber())
   .pipe(sass())
@@ -30,7 +30,7 @@ import {deleteAsync} from 'del';
 
 // html
 
- const html = () => {
+const html = () => {
   return gulp.src('source/*.html')
   .pipe(htmlmin({ collapseWhitespace: true }))
   .pipe(gulp.dest('build'));
