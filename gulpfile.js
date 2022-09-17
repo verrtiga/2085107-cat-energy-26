@@ -68,24 +68,24 @@ const copyImages = () => {
 
 // SVG
 
-const svg = () =>
-gulp.src(['source/img/*.svg', '!source/img/icons/*.svg'])
+ const svg = () =>
+gulp.src(['source/img/*.svg', '!source/img/svg-icons/*.svg'])
 .pipe(svgo())
 .pipe(gulp.dest('build/img'));
 
 const sprite = () => {
-return gulp.src('source/img/icons/*.svg')
+return gulp.src('source/img/svg-icons/*.svg')
 .pipe(svgo())
 .pipe(svgstore({
 inlineSvg: true
 }))
 .pipe(rename('sprite.svg'))
-.pipe(gulp.dest('build/img'));
+.pipe(gulp.dest('build/img' ));
 }
 
 // Copy
 
- const copy = (done) => {
+const copy = (done) => {
   gulp.src([
   'source/fonts/*.{woff2,woff}',
   'source/*.ico',
