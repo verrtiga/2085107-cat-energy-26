@@ -68,7 +68,7 @@ const copyImages = () => {
 
 // SVG
 
- const svg = () =>
+const svg = () =>
 gulp.src(['source/img/*.svg', '!source/img/svg-icons/*.svg'])
 .pipe(svgo())
 .pipe(gulp.dest('build/img'));
