@@ -4,14 +4,29 @@
   margin-left: auto;
 }
 
+.navigation__container {
+  @media (min-width: $mobile-width) {
+    position: absolute;
+    min-width: 100%;
+    min-height: 132px;
+  }
+}
+
 .navigation__container--open {
   position: absolute;
   visibility: hidden;
+  z-index: 2;
 
   @media (min-width: $tablet-width) {
     visibility: visible;
     position: unset;
   }
+}
+
+.navigation__container--close {
+  z-index: 10;
+  position: absolute;
+  margin-left: -20px;
 }
 
 .navigation__list {
@@ -96,7 +111,7 @@
 
 .navigation__item {
   padding-bottom: 23px;
-  padding-top: 23px;
+  padding-top: 19px;
   border-top: 1px solid #e6e6e6;
 
   @media (min-width: $tablet-width) {
