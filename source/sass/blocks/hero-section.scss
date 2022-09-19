@@ -43,15 +43,14 @@
 .hero-section__title {
   margin: 0;
   padding: 0;
-  padding-top: 27px;
   font-family: $oswald;
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 33px;
+  font-size: 36px;
   line-height: 100%;
   color: $white;
-  margin-top: 72px;
+  margin-top: 25px;
 
   @media (min-width: $tablet-width) {
     color: $black;
@@ -75,7 +74,7 @@
 
 .hero-section__slogan {
   margin: 0;
-  padding-top: 25px;
+  margin-top: 26px;
   font-family: $oswald;
   text-align: center;
   font-style: normal;
@@ -106,7 +105,7 @@
 
 .hero-section__logo {
   display: block;
-  margin: -37px auto 0;
+  margin: 30px auto 0;
 
   @media (min-width: $desktop-width) {
     margin-top: -190px;

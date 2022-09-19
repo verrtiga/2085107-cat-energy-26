@@ -21,11 +21,11 @@
 }
 
 .hero-section__button {
-  width: 244px;
-  padding: 14px 26px;
-  margin: 0 auto;
+  width: 280px;
+  padding: 10px 31px;
   order: 1;
   line-height: 129%;
+  font-size: 14px;
 
   @media (min-width: $tablet-width) {
     line-height: 100%;

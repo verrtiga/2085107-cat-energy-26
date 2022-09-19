@@ -1,7 +1,7 @@
 @use "../abstract" as *;
 
 .advantages {
-  margin-top: 56px;
+  margin-top: 20px;
 }
 
 .advantages__list {
@@ -72,7 +72,7 @@
   margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 31px;
+  padding-left: 13px;
   text-align: center;
   color: $black;
   text-transform: uppercase;
@@ -83,6 +83,10 @@
   }
 }
 
+.advantages__tittle--fat {
+  padding-left: 39px;
+}
+
 .advantages__description {
   font-family: $arial;
   font-style: normal;
@@ -91,7 +95,7 @@
   line-height: 129%;
   color: $grey;
   margin: 0;
-  padding-bottom: 42px;
+  padding-bottom: 41px;
   padding-left: 20px;
   padding-right: 33px;
 
@@ -105,7 +109,7 @@
   content: "";
   position: absolute;
   background-color: #d9d9d9;
-  top: 234px;
+  top: 207px;
   left: 20px;
   height: 2px;
   width: 240px;
@@ -120,10 +124,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 67%;
+  line-height: 100%;
   text-decoration: none;
   color: $grey;
   padding-left: 19px;
+  text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
@@ -144,9 +149,7 @@
 }
 
 .advantages-container {
-  margin-top: 20px;
   background-color: $milk;
-  padding-top: 20px;
   padding-bottom: 20px;
 
   @media (min-width: $desktop-width) {
