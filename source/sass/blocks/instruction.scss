@@ -15,6 +15,7 @@
   color: $black;
   margin: 0;
   padding-bottom: 42px;
+  padding-top: 16px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
@@ -121,7 +122,7 @@
 .instruction__description {
   line-height: 129%;
   margin: 0;
-  padding-left: 70px;
+  padding-left: 80px;
 
   @media (min-width: $tablet-width) {
     line-height: 150%;

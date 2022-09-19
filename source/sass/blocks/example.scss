@@ -21,7 +21,6 @@
   margin: 0;
   padding: 0;
   grid-column: 1/3;
-  padding-left: 29px;
 
   @media (min-width: $tablet-width) {
     line-height: 100%;
@@ -32,8 +31,8 @@
   font-size: 36px;
   line-height: 75%;
   padding-bottom: 40px;
-  padding-top: 25px;
-  padding-left: 20px;
+  padding-top: 30px;
+  padding-left: 0;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
@@ -50,6 +49,7 @@
   line-height: 129%;
   color: $grey;
   padding-bottom: 20px;
+  padding-top: 7px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -62,10 +62,16 @@
 }
 
 .example__description {
+  font-family: $arial;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
   width: 87px;
   text-align: center;
-  padding-top: 32px;
-  padding-left: 20px;
+  padding-top: 45px;
+  padding-left: 18px;
+  padding-right: 36px;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     width: 142px;
@@ -79,6 +85,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 100%;
+  text-transform: uppercase;
   color: $black;
   left: 42px;
   top: 14px;
@@ -114,6 +121,9 @@
   color: $black;
   margin: 0;
   padding: 0;
+  padding-top: 20px;
+  padding-left: 45px;
+  min-width: 188px;
   text-transform: uppercase;
   text-align: center;
 
