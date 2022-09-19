@@ -57,8 +57,9 @@
     font-weight: 400;
     font-size: 60px;
     text-align: center;
-    padding-left: 60px;
-    padding-right: 237px;
+    padding-left: 6px;
+    padding-right: 140px;
+    padding-top: 35px;
   }
 
   @media (min-width: $desktop-width) {
@@ -89,8 +90,10 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 67%;
-    padding-right: 262px;
+    padding-top: 45px;
+    padding-right: 283px;
     padding-left: 36px;
+    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -106,6 +109,10 @@
 .hero-section__logo {
   display: block;
   margin: 30px auto 0;
+
+  @media (min-width: $tablet-width) {
+    margin: 23px 0 auto;
+  }
 
   @media (min-width: $desktop-width) {
     margin-top: -190px;

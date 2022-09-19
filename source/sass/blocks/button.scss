@@ -28,9 +28,13 @@
   font-size: 14px;
 
   @media (min-width: $tablet-width) {
+    position: absolute;
     line-height: 100%;
-    margin-top: 50px;
-    margin-left: 90px;
+    margin-top: 291px;
+    margin-left: 89px;
+    padding: 15px 26px;
+    width: 246px;
+    font-size: 20px;
   }
 }
 

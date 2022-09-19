@@ -10,8 +10,9 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-top: 34px;
-  padding-bottom: 30px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-right: 27px;
 }
 
 .social__item {
@@ -22,7 +23,6 @@
   display: block;
   border: 1px solid #e6e6e6;
   width: 280px;
-  margin-top: 32px;
 
   @media (min-width: $tablet-width) {
     border: none;
@@ -31,31 +31,9 @@
   }
 }
 
-.html-logo {
-  display: flex;
-  text-decoration: none;
-  font-family: $arial;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
-  color: $grey;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  padding-right: 110px;
-}
-
-.html-logo__description {
-  padding-right: 145px;
-
-  @media (min-width: $tablet-width) {
-    padding-right: 22px;
-  }
-}
-
 .social__logo {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 39px;
+  padding-bottom: 31px;
 }
 
 .social-wrapper {

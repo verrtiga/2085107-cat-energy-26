@@ -20,6 +20,8 @@
   @media (min-width: $tablet-width) {
     visibility: visible;
     position: unset;
+    margin-top: 43px;
+    min-height: 36px;
   }
 }
 
@@ -40,7 +42,6 @@
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
     background-color: transparent;
   }
 
@@ -64,6 +65,8 @@
 
   @media (min-width: $tablet-width) {
     line-height: 133%;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   @media (min-width: $desktop-width) {
@@ -95,6 +98,10 @@
   height: 2px;
   background-color: $green;
 
+  @media (min-width: $tablet-width) {
+    top: 33px;
+  }
+
   @media (min-width: $desktop-width) {
     background-color: $white;
   }
@@ -117,7 +124,9 @@
   @media (min-width: $tablet-width) {
     border-top: 0 solid transparent;
     padding-top: 0;
-    margin-left: 30px;
+    padding-bottom: 0;
+    margin-left: 37px;
+    margin-right: 1px;
   }
 
   @media (min-width: $desktop-width) {

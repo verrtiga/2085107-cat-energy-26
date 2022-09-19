@@ -48,6 +48,26 @@
 
   @media (min-width: $tablet-width) {
     right: 61px;
+    background-image: url("../img/cat-slim-tablet.svg");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 211px;
+    left: 446px;
+    top: 62px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/cat-slim-tablet@2x.svg");
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/cat-slim-desktop.svg");
+    width: 100px;
+    height: 100px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/cat-slim-desktop@2x.svg");
+    }
   }
 }
 
@@ -61,6 +81,28 @@
   height: 50px;
   left: 13px;
   top: 21px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/cat-strong-tablet.svg");
+    width: 268px;
+    height: 200px;
+    left: 413px;
+    top: 102px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/cat-strong-tablet@2x.svg");
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/cat-strong-desktop.svg");
+    width: 134px;
+    height: 100px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/cat-strong-desktop@2x.svg");
+    }
+  }
 }
 
 .advantages__title {
@@ -80,11 +122,17 @@
   @media (min-width: $tablet-width) {
     font-size: 36px;
     line-height: 100%;
+    padding-top: 57px;
+    padding-bottom: 24px;
+    padding-right: 199px;
+    padding-left: 0;
   }
 }
 
 .advantages__tittle--fat {
-  padding-left: 39px;
+  min-width: 206px;
+  padding-top: 91px;
+  padding-left: 1px;
 }
 
 .advantages__description {
@@ -100,8 +148,10 @@
   padding-right: 33px;
 
   @media (min-width: $tablet-width) {
+    padding: 0;
     font-size: 16px;
     line-height: 150%;
+    padding-bottom: 57px;
   }
 }
 
@@ -133,6 +183,7 @@
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 100%;
+    padding-left: 0;
   }
 }
 
@@ -146,13 +197,25 @@
 
 .advantages__link > svg {
   padding-left: 15px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 21px;
+    padding-bottom: 4px;
+  }
 }
 
 .advantages-container {
   background-color: $milk;
   padding-bottom: 20px;
 
+  @media (min-width: $tablet-width) {
+    padding-bottom: 57px;
+    padding-right: 316px;
+    padding-left: 52px;
+  }
+
   @media (min-width: $desktop-width) {
     padding: 50px 116px;
   }
 }
+

@@ -21,6 +21,9 @@
   text-decoration: none;
   text-transform: uppercase;
   color: $black;
+  margin: 0;
+  padding-top: 25px;
+  padding-left: 20px;
 
   @media (min-width: $tablet-width) {
     line-height: 130%;
@@ -38,6 +41,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 143%;
+  margin: 0;
+  padding-top: 25px;
   color: $grey;
 
   @media (min-width: $tablet-width) {
@@ -54,4 +59,5 @@
   width: 100%;
   display: block;
   border: none;
+  max-height: 362px;
 }

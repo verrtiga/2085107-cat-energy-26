@@ -83,7 +83,8 @@ body {
 
 .location-container {
   display: grid;
-  grid-template-columns: 138px 138px;
+  grid-template-columns: 1fr 1fr;
+  min-height: 112px;
 
   @media (min-width: $tablet-width) {
     column-gap: 290px;
@@ -155,9 +156,27 @@ body {
   flex-wrap: wrap;
 }
 
-.html-logo__svg {
-  margin-right: 30px;
+.html-logo {
+  display: flex;
+  text-decoration: none;
+  font-family: $arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: $grey;
+  padding-bottom: 32px;
+  padding-top: 28px;
 }
+
+.html-logo__description {
+  margin-right: 139px;
+
+  @media (min-width: $tablet-width) {
+    padding-right: 22px;
+  }
+}
+
 
 .main-form-wrapper {
   @media (min-width: $desktop-width) {
