@@ -2,6 +2,10 @@
 
 .advantages {
   margin-top: 20px;
+
+  @media (min-width: $desktop-width) {
+    margin-top: 135px;
+  }
 }
 
 .advantages__list {
@@ -11,7 +15,7 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    justify-content: space-evenly;
+    margin-left: 31px;
   }
 }
 
@@ -24,8 +28,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 563px;
-    height: 374px;
+    width: 570px;
   }
 }
 
@@ -63,7 +66,9 @@
   @media (min-width: $desktop-width) {
     background-image: url("../img/cat-slim-desktop.svg");
     width: 100px;
-    height: 100px;
+    height: 113px;
+    left: 51px;
+    top: 42px;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/cat-slim-desktop@2x.svg");
@@ -98,6 +103,8 @@
     background-image: url("../img/cat-strong-desktop.svg");
     width: 134px;
     height: 100px;
+    left: 33px;
+    top: 48px;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/cat-strong-desktop@2x.svg");
@@ -127,6 +134,13 @@
     padding-right: 199px;
     padding-left: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    padding: 0;
+    padding-top: 77px;
+    padding-left: 20px;
+  }
 }
 
 .advantages__tittle--fat {
@@ -136,6 +150,11 @@
     min-width: 206px;
     padding-top: 91px;
     padding-left: 1px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 78px;
+    padding-left: 60px;
   }
 }
 
@@ -156,6 +175,13 @@
     font-size: 16px;
     line-height: 150%;
     padding-bottom: 57px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-top: 73px;
+    padding-bottom: 32px;
+    padding-left: 0;
   }
 }
 
@@ -189,6 +215,10 @@
     line-height: 100%;
     padding-left: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
 }
 
 .advantages__link:hover {
@@ -205,20 +235,5 @@
   @media (min-width: $tablet-width) {
     padding-left: 21px;
     padding-bottom: 4px;
-  }
-}
-
-.advantages-container {
-  background-color: $milk;
-  padding-bottom: 20px;
-
-  @media (min-width: $tablet-width) {
-    padding-bottom: 57px;
-    padding-right: 316px;
-    padding-left: 52px;
-  }
-
-  @media (min-width: $desktop-width) {
-    padding: 50px 116px;
   }
 }

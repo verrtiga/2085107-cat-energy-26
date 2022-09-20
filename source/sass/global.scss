@@ -139,8 +139,18 @@ body {
   background-color: $milk;
   padding-bottom: 20px;
 
+  @media (min-width: $tablet-width) {
+    padding-bottom: 57px;
+    padding-right: 316px;
+    padding-left: 52px;
+  }
+
   @media (min-width: $desktop-width) {
-    padding: 50px 116px;
+    padding: 0;
+    margin: 0;
+    padding-right: 51px;
+    padding-left: 52px;
+    min-height: 374px;
   }
 }
 
