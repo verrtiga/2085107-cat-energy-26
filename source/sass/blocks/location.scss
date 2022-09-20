@@ -3,10 +3,6 @@
 .location {
   background-color: $milk;
 
-  @media (min-width: $tablet-width) {
-    height: 400px;
-  }
-
   @media (min-width: $desktop-width) {
     position: relative;
   }
@@ -31,6 +27,10 @@
 
   @media (min-width: $tablet-width) {
     line-height: 130%;
+    padding-top: 44px;
+    padding-bottom: 56px;
+    padding-left: 70px;
+    font-size: 20px;
   }
 
   @media (min-width: $desktop-width) {
@@ -51,6 +51,10 @@
 
   @media (min-width: $tablet-width) {
     line-height: 125%;
+    padding-top: 40px;
+    padding-right: 66px;
+    padding-left: 79px;
+    font-size: 16px;
 
     @media (min-width: $desktop-width) {
       margin-top: 60px;
@@ -64,4 +68,8 @@
   display: block;
   border: none;
   max-height: 362px;
+
+  @media (min-width: $tablet-width) {
+    height: 400px;
+  }
 }

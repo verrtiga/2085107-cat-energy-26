@@ -13,6 +13,10 @@
   padding-top: 17px;
   padding-bottom: 15px;
   padding-right: 27px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 60px;
+  }
 }
 
 .social__item {
@@ -34,6 +38,10 @@
 .social__logo {
   padding-top: 39px;
   padding-bottom: 31px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 74px;
+  }
 }
 
 .social-wrapper {
