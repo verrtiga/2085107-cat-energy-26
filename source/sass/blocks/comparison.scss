@@ -10,6 +10,10 @@
     margin-bottom: 100px;
     margin-left: 10px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 219px;
+  }
 }
 
 .comparison__top {
@@ -20,6 +24,11 @@
   width: var(--comparison, 50%);
   overflow: hidden;
   background-color: $milk;
+
+  @media (min-width: $desktop-width) {
+    top: -4px;
+    left: 3px;
+  }
 }
 
 .comparison__skinny {
@@ -46,6 +55,11 @@
   left: 4px;
   width: 100%;
   appearance: none;
+
+  @media (min-width: $desktop-width) {
+    top: 124px;
+    left: -29px;
+  }
 }
 
 .comparison__range::before,

@@ -59,14 +59,13 @@ body {
 
   @media (min-width: $tablet-width) {
     display: flex;
-    justify-content: space-around;
     margin-top: 33px;
-    column-gap: 29px;
+    justify-content: flex-start;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
-    justify-content: flex-start;
+    margin-top: 50px;
   }
 }
 

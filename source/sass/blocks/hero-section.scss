@@ -24,7 +24,7 @@
 
   @media (min-width: $desktop-width) {
     display: block;
-    height: 694px;
+    height: 703px;
     right: 0;
     left: calc(( 100% - 1280px) / 2 + 640px);
     top: -119px;
@@ -56,8 +56,8 @@
     color: $black;
     font-weight: 400;
     font-size: 60px;
-    text-align: center;
-    padding-left: 6px;
+    text-align: left;
+    padding-left: 84px;
     padding-right: 140px;
     padding-top: 35px;
   }
@@ -66,9 +66,9 @@
     color: $black;
     font-weight: 400;
     font-size: 60px;
-    text-align: center;
+    text-align: left;
     padding: 0;
-    padding-left: 98px;
+    padding-left: 109px;
     padding-top: 88px;
     width: 450px;
   }
