@@ -130,9 +130,13 @@
 }
 
 .advantages__tittle--fat {
-  min-width: 206px;
-  padding-top: 91px;
-  padding-left: 1px;
+  padding-left: 38px;
+
+  @media (min-width: $tablet-width) {
+    min-width: 206px;
+    padding-top: 91px;
+    padding-left: 1px;
+  }
 }
 
 .advantages__description {

@@ -37,6 +37,7 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 67%;
+    padding-top: 72px;
   }
 }
 
@@ -54,6 +55,7 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 150%;
+    padding-top: 35px;
   }
 
   @media (min-width: $desktop-width) {
@@ -75,6 +77,8 @@
 
   @media (min-width: $tablet-width) {
     width: 142px;
+    padding-top: 65px;
+    font-size: 14px;
   }
 }
 
@@ -93,11 +97,16 @@
   @media (min-width: $tablet-width) {
     font-size: 30px;
     line-height: 123%;
+    left: 63px;
   }
 }
 
 .example__span--days {
   left: 19px;
+
+  @media (min-width: $tablet-width) {
+    left: 44px;
+  }
 }
 
 .example__info {
@@ -108,9 +117,24 @@
 
 
   @media (min-width: $tablet-width) {
+    position: relative;
     width: 162px;
+    background-image: url("../img/slider-border-tablet.svg");
+    min-height: 72px;
   }
 }
+
+// .example__info--weight {
+//   @media (min-width: $tablet-width) {
+//     margin-left: -30px;
+//   }
+// }
+
+// .example__info--days {
+//   @media (min-width: $tablet-width) {
+//     margin-left: -30px;
+//   }
+// }
 
 .example__little-title {
   font-family: $oswald;
@@ -129,5 +153,8 @@
 
   @media (min-width: $tablet-width) {
     line-height: 100%;
+    font-size: 20px;
+    padding-left: 143px;
+    padding-top: 10px;
   }
 }

@@ -20,6 +20,8 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 100%;
+    padding-top: 45px;
+    padding-bottom: 0;
   }
 }
 
@@ -93,6 +95,16 @@
   background-image: url("../img/function-eat.svg");
   width: 60px;
   height: 60px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/function-eat-tablet.svg");
+    width: 80px;
+    height: 80px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/function-eat-tablet@2x.svg");
+    }
+  }
 }
 
 .instruction__item--powder::before {
@@ -101,6 +113,17 @@
   background-image: url("../img/powder.svg");
   width: 60px;
   height: 60px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/powder-tablet.svg");
+    width: 80px;
+    height: 80px;
+    left: -45px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/powder-tablet@2x.svg");
+    }
+  }
 }
 
 .instruction__item--change-eat::before {
@@ -109,6 +132,18 @@
   background-image: url("../img/change-eat.svg");
   width: 60px;
   height: 60px;
+
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/change-eat-tablet.svg");
+    width: 80px;
+    height: 80px;
+    bottom: 47px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/change-eat-tablet@2x.svg");
+    }
+  }
 }
 
 .instruction__item--changes::before {
@@ -117,6 +152,18 @@
   background-image: url("../img/changes.svg");
   width: 60px;
   height: 60px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/changes-tablet.svg");
+    width: 80px;
+    height: 80px;
+    bottom: 47px;
+    left: -45px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/changes-tablet@2x.svg");
+    }
+  }
 }
 
 .instruction__description {
