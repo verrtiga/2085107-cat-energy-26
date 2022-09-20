@@ -1,9 +1,9 @@
 @use "../abstract" as *;
 
 .instruction {
-  @media (min-width: $desktop-width) {
-    margin-top: 70px;
-  }
+  // @media (min-width: $desktop-width) {
+  //   margin-top: 70px;
+  // }
 }
 
 .instruction__title {
@@ -22,6 +22,12 @@
     line-height: 100%;
     padding-top: 45px;
     padding-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-top: 71px;
+    padding-left: 29px;
   }
 }
 
@@ -53,6 +59,10 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
+    grid-column-gap: 0;
+    padding: 0;
+    padding-top: 72px;
+    margin-left: 37px;
   }
 }
 
@@ -82,9 +92,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: 17px;
+    top: 93px;
     right: 0;
-    left: 91px;
+    left: 128px;
   }
 }
 
@@ -105,6 +115,10 @@
       background-image: url("../img/function-eat-tablet@2x.svg");
     }
   }
+
+  @media (min-width: $desktop-width) {
+    left: -7px;
+  }
 }
 
 .instruction__item--powder::before {
@@ -123,6 +137,10 @@
     @media (min-resolution: 2dppx) {
       background-image: url("../img/powder-tablet@2x.svg");
     }
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 5px;
   }
 }
 
@@ -144,6 +162,11 @@
       background-image: url("../img/change-eat-tablet@2x.svg");
     }
   }
+
+  @media (min-width: $desktop-width) {
+    bottom: 130px;
+    left: 17px;
+  }
 }
 
 .instruction__item--changes::before {
@@ -164,6 +187,11 @@
       background-image: url("../img/changes-tablet@2x.svg");
     }
   }
+
+  @media (min-width: $desktop-width) {
+    bottom: 128px;
+    left: 30px;
+  }
 }
 
 .instruction__description {
@@ -173,5 +201,11 @@
 
   @media (min-width: $tablet-width) {
     line-height: 150%;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-top: 112px;
+    padding-right: 49px;
   }
 }

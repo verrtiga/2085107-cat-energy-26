@@ -39,6 +39,12 @@
     line-height: 67%;
     padding-top: 72px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-top: 107px;
+    padding-left: 30px;
+  }
 }
 
 .example__main-description {
@@ -60,6 +66,7 @@
 
   @media (min-width: $desktop-width) {
     width: 708px;
+    padding-top: 168px;
   }
 }
 
