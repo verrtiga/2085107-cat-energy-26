@@ -47,8 +47,7 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    margin-top: 20px;
-    margin-right: 48px;
+    margin-top: 74px;
   }
 }
 
@@ -71,6 +70,7 @@
 
   @media (min-width: $desktop-width) {
     line-height: 100%;
+    font-size: 20px;
   }
 }
 
@@ -104,6 +104,7 @@
 
   @media (min-width: $desktop-width) {
     background-color: $white;
+    top: 36px;
   }
 }
 
@@ -130,6 +131,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-right: 6px;
+    margin-left: 0;
+    margin-right: 33px;
   }
 }
