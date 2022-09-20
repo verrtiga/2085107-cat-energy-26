@@ -1,13 +1,32 @@
 @use "../abstract" as *;
 
 .example {
+  position: relative;
+  z-index: 1;
   background-color: $milk;
   min-height: 659px;
+
+  @media (min-width: $tablet-width) {
+    background-color: transparent;
+  }
 }
 
 .example__wrapper {
   @media (min-width: $desktop-width) {
     display: flex;
+  }
+}
+
+.example--color::after {
+  @media (min-width: $tablet-width) {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 35%;
+    background: linear-gradient(194deg, #eaeaea, $white);
+    z-index: -1;
   }
 }
 
@@ -130,6 +149,13 @@
   }
 }
 
+.example__space {
+  @media (min-width: $tablet-width) {
+    display: block;
+    margin-top: 9px;
+  }
+}
+
 .example__span--days {
   left: 19px;
 
@@ -199,7 +225,12 @@
   @media (min-width: $tablet-width) {
     line-height: 100%;
     font-size: 20px;
-    padding-left: 143px;
+    padding-left: 119px;
     padding-top: 10px;
+    text-align: right;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
   }
 }
