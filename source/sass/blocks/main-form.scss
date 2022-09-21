@@ -57,7 +57,9 @@
   margin-bottom: 31px;
 
   @media (min-width: $tablet-width) {
-    margin-left: 61px;
+    margin-left: 67px;
+    font-size: 16px;
+    margin-top: 15px;
   }
 }
 
@@ -68,5 +70,8 @@
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
+    margin-top: 57px;
+    margin-left: 51px;
+    margin-bottom: 78px;
   }
 }

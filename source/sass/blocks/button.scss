@@ -100,8 +100,10 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
-    padding: 13px 45px;
+    padding: 9px 45px;
     height: 52px;
+    width: 282px;
+    font-size: 20px;
 
     @media (min-width: $desktop-width) {
       padding: 13px 188px;
