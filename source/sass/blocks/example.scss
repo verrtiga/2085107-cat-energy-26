@@ -28,6 +28,10 @@
     background: linear-gradient(194deg, #eaeaea, $white);
     z-index: -1;
   }
+
+  @media (min-width: $desktop-width) {
+    height: 69%;
+  }
 }
 
 .example__desc-container {
@@ -154,6 +158,11 @@
     display: block;
     margin-top: 9px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -18px;
+    margin-left: 237px;
+  }
 }
 
 .example__span--days {
@@ -231,6 +240,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 0;
+    padding-left: 31px;
+    padding-top: 54px;
+    text-align: left;
   }
 }

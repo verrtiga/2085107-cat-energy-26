@@ -66,6 +66,7 @@ body {
   @media (min-width: $desktop-width) {
     display: flex;
     margin-top: 50px;
+    flex-wrap: wrap;
   }
 }
 
