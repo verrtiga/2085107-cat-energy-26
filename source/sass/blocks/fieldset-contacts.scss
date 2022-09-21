@@ -18,7 +18,7 @@
 .fieldset-contacts__title {
   margin: 0;
   padding: 0;
-  margin-right: 93px;
+  margin-right: 118px;
   margin-bottom: 35px;
   font-family: $oswald;
   font-style: normal;
@@ -119,4 +119,16 @@
 
 .fieldset-contacts__item {
   margin-bottom: 13px;
+}
+
+.fieldset-contacts__email {
+  position: absolute;
+  right: 37px;
+  top: 102px;
+}
+
+.fieldset-contacts__phone {
+  position: absolute;
+  right: 34px;
+  top: 158px;
 }

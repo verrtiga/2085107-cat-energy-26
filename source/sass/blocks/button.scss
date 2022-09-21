@@ -96,8 +96,10 @@
 
 .main-form__button {
   padding: 7px 44px;
+  margin-top: 18px;
 
   @media (min-width: $tablet-width) {
+    margin: 0;
     padding: 13px 45px;
     height: 52px;
 
