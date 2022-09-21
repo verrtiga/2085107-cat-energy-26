@@ -18,6 +18,12 @@
     padding-top: 60px;
     padding-right: 5px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 33px;
+  }
 }
 
 .social__item {
@@ -42,6 +48,11 @@
 
   @media (min-width: $tablet-width) {
     padding-top: 78px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 0;
+    padding-left: 30px;
   }
 }
 

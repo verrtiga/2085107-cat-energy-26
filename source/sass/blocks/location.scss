@@ -34,7 +34,8 @@
 
   @media (min-width: $desktop-width) {
     padding: 0;
-    padding-top: 60px;
+    padding-top: 59px;
+    padding-left: 80px;
   }
 }
 
@@ -56,9 +57,8 @@
     text-align: right;
 
     @media (min-width: $desktop-width) {
-      padding: 0;
-      padding-top: 56px;
-      padding-right: 80px;
+      text-align: left;
+      padding: 55px 47px;
     }
   }
 }
@@ -70,6 +70,10 @@
   max-height: 362px;
 
   @media (min-width: $tablet-width) {
+    height: 400px;
+  }
+
+  @media (min-width: $desktop-width) {
     height: 400px;
   }
 }

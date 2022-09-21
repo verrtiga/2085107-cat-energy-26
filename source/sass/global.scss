@@ -97,8 +97,8 @@ body {
     z-index: 1;
     width: 565px;
     background-color: $white;
-    grid-template-columns: 176px 231px;
-    column-gap: 80px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
     height: 198px;
     position: absolute;
     top: 40px;
@@ -181,6 +181,12 @@ body {
 
   @media (min-width: $tablet-width) {
     padding-top: 81px;
+    padding-bottom: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 1px;
+    padding-right: 32px;
     padding-bottom: 32px;
   }
 }
