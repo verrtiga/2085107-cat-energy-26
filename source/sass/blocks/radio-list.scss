@@ -6,9 +6,11 @@
   margin: 0;
   padding: 0;
   border-bottom: 1px solid #e7e7e7;
-  margin-bottom: 26px;
+  margin-bottom: 27px;
+  margin-top: 37px;
 
   @media (min-width: $tablet-width) {
+    margin: 0;
     margin-bottom: 75px;
   }
 
@@ -62,6 +64,7 @@
   background-color: $white;
   border: 1px solid #cdcdcd;
   appearance: none;
+  margin-top: -6px;
 
   @media (min-width: $tablet-width) {
     margin-left: 30px;
@@ -84,7 +87,7 @@
 .radio-list__input[type="radio"]:checked + .radio-list__mark::before {
   content: "";
   position: absolute;
-  left: 9px;
+  left: 8px;
   top: 8px;
   margin: auto;
   width: 13px;

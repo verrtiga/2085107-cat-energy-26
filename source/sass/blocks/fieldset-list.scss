@@ -60,11 +60,10 @@
 }
 
 .fieldset-list__input--name {
-  padding-top: 13px;
-  padding-bottom: 13px;
-  padding-left: 19px;
-  padding-right: 49px;
   margin: 0;
+  padding: 12px 13px;
+  width: 200px;
+  margin-left: 10px;
 
   @media (min-width: $tablet-width) {
     padding-top: 13px;
@@ -82,10 +81,9 @@
 }
 
 .fieldset-list__input--kg {
-  padding-top: 13px;
-  padding-bottom: 14px;
-  padding-left: 16px;
-  padding-right: 29px;
+  width: 170px;
+  padding: 13px 16px;
+  margin-left: 12px;
 
   @media (min-width: $tablet-width) {
     padding-top: 13px;
@@ -102,9 +100,9 @@
 }
 
 .fieldset-list__input--age {
-  padding-top: 13px;
-  padding-bottom: 13px;
-  padding-left: 8px;
+  width: 140px;
+  padding: 12px 15px;
+  margin-left: 5px;
 
   @media (min-width: $tablet-width) {
     padding-top: 10px;

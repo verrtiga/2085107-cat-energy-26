@@ -90,21 +90,13 @@
   border-color: #ff8282;
 }
 
-.fieldset-container-email {
-  position: relative;
-}
-
-.fieldset-container-phone {
-  position: relative;
-}
-
 .fieldset-contacts__input--email {
-  padding-top: 13px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 46px;
+  width: 187px;
+  padding: 13px 15px;
+  margin-left: 5px;
 
   @media (min-width: $tablet-width) {
+    margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -113,10 +105,9 @@
 }
 
 .fieldset-contacts__input--tel {
-  padding-top: 13px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 30px;
+  width: 172px;
+  padding: 13px 16px;
+  margin-left: 3px;
 
   @media (min-width: $tablet-width) {
     padding-top: 10px;
@@ -127,5 +118,5 @@
 }
 
 .fieldset-contacts__item {
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
