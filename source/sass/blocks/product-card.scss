@@ -4,11 +4,9 @@
   position: relative;
   background-color: transparent;
   display: grid;
-  width: 320px;
   margin: 0 auto;
-  grid-template-columns: 141px 141px;
+  grid-template-columns: 135px 141px;
   grid-template-rows: auto;
-  row-gap: 13px;
   border-top: 1px solid #d9d9d9;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -42,12 +40,12 @@
 .product-card--more::before {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 136px;
   width: 30px;
   height: 2px;
   background-color: #d3d3dd;
   transform: translateX(-50%);
-  top: 45px;
+  top: 33px;
 }
 
 .product-card--more::after {
@@ -68,6 +66,8 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  max-width: 80px;
+  align-items: center;
   line-height: 125%;
   text-transform: uppercase;
   color: $black;
@@ -76,26 +76,27 @@
 
   @media (min-width: $tablet-width) {
     line-height: 120%;
+    font-size: 20px;
   }
 
   @media (min-width: $desktop-width) {
     line-height: 105%;
+    margin-top: -20px;
+    margin-bottom: -12px;
   }
 }
 
 .product-card__title--more {
   text-align: center;
-  padding-top: 78px;
-
-  // @media (min-width: $tablet-width) {
-
-  // }
+  max-width: 204px;
+  padding-top: 52px;
+  padding-left: 35px;
 }
 
+
 .product-card__img {
-  margin-left: 50px;
-  width: 68px;
-  height: 86px;
+  margin-left: 33px;
+  margin-top: 8px;
 
   @media (min-width: $tablet-width) {
     margin-left: 100px;
@@ -107,6 +108,7 @@
 
   @media (min-width: $desktop-width) {
     margin-left: 44px;
+    margin-top: -105px;
   }
 }
 
@@ -132,12 +134,14 @@
   font-size: 12px;
   line-height: 133%;
   margin: 0;
-  margin-top: 8px;
-  margin-bottom: 21px;
+  margin-top: -7px;
+  margin-bottom: 19px;
+  margin-right: 28px;
   text-align: center;
 
   @media (min-width: $tablet-width) {
     line-height: 112%;
+    font-size: 16px;
   }
 }
 
@@ -149,6 +153,7 @@
     border-bottom: 1px solid #d3d3dd;
     padding: 16px 40px;
     line-height: 100%;
+    font-size: 16px;
 
     @media (min-width: $desktop-width) {
       padding: 16px 26px;

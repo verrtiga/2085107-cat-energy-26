@@ -46,9 +46,9 @@
 .product-card__button {
   width: 280px;
   padding: 10px 110px;
-  margin-left: 20px;
   margin-right: 20px;
   line-height: 125%;
+  margin-top: 3px;
 
   @media (min-width: $desktop-width) {
     width: 168px;
@@ -91,6 +91,7 @@
   @media (min-width: $desktop-width) {
     padding: 7px 26px;
     line-height: 125%;
+    width: 244px;
   }
 }
 

@@ -6,8 +6,8 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
-  margin-top: 55px;
-  margin-bottom: 35px;
+  margin-top: 62px;
+  margin-bottom: 34px;
   position: relative;
 
   @media (min-resolution: 2dppx) {
@@ -23,7 +23,8 @@
     width: 244px;
     height: 288px;
     background-size: auto;
-    margin-left: 80px;
+    margin-left: 170px;
+    margin-top: 27px;
   }
 }
 
@@ -34,7 +35,7 @@
   height: 80px;
   position: absolute;
   top: 58px;
-  left: 121px;
+  left: 102px;
 
   @media (min-width: $desktop-width) {
     left: 80px;
@@ -49,7 +50,7 @@
   line-height: 125%;
   color: $white;
   text-align: center;
-  padding-top: 186px;
+  padding-top: 170px;
   padding-bottom: 43px;
   padding-left: 58px;
   padding-right: 61px;
