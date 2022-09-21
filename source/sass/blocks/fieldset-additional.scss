@@ -36,6 +36,7 @@
   @media (min-width: $tablet-width) {
     line-height: 100%;
     padding-left: 20px;
+    font-size: 36px;
   }
 }
 
@@ -72,6 +73,10 @@
   text-transform: uppercase;
   color: $black2;
   position: relative;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+  }
 }
 
 .fieldset-additional__control {

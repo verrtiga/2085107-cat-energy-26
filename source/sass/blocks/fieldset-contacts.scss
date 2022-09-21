@@ -13,6 +13,10 @@
   position: absolute;
   top: 15px;
   z-index: 0;
+
+  @media (min-width: $tablet-width) {
+    top: 20px;
+  }
 }
 
 .fieldset-contacts__title {
@@ -31,9 +35,8 @@
   background-color: $white;
 
   @media (min-width: $tablet-width) {
-    padding-right: 20px;
-    padding-left: 40px;
     line-height: 100%;
+    font-size: 36px;
   }
 }
 
@@ -44,7 +47,8 @@
   margin-bottom: 23px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 40px;
+    margin-top: 76px;
+    margin-left: 39px;
   }
 
   @media (min-width: $desktop-width) {
@@ -62,6 +66,10 @@
   line-height: 112%;
   text-transform: uppercase;
   color: $grey;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+  }
 }
 
 .fieldset-contacts__input {
@@ -76,6 +84,10 @@
   border: 1px solid #e7e7e7;
   margin: 0;
   appearance: none;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+  }
 }
 
 .fieldset-contacts__input:hover {
@@ -97,10 +109,9 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 301px;
+    padding: 14px 21px;
+    width: 509px;
+    margin-left: 16px;
   }
 }
 
@@ -110,25 +121,38 @@
   margin-left: 3px;
 
   @media (min-width: $tablet-width) {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 285px;
+    padding: 14px 21px;
+    width: 490px;
+    margin-left: 10px;
   }
 }
 
 .fieldset-contacts__item {
   margin-bottom: 13px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 17px;
+  }
 }
 
 .fieldset-contacts__email {
   position: absolute;
   right: 37px;
   top: 102px;
+
+  @media (min-width: $tablet-width) {
+    right: 83px;
+    top: 129px;
+  }
 }
 
 .fieldset-contacts__phone {
   position: absolute;
   right: 34px;
   top: 158px;
+
+  @media (min-width: $tablet-width) {
+    right: 83px;
+    top: 197px;
+  }
 }

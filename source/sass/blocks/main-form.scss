@@ -15,6 +15,11 @@
 
   @media (min-width: $tablet-width) {
     border: 0;
+    font-size: 60px;
+    padding: 0;
+    margin-top: 62px;
+    margin-left: 39px;
+    margin-bottom: 54px;
   }
 }
 
@@ -32,6 +37,10 @@
 
   @media (min-width: $tablet-width) {
     line-height: 150%;
+    font-size: 20px;
+    padding: 0;
+    padding-left: 41px;
+    padding-right: 338px;
   }
 }
 

@@ -9,6 +9,8 @@
 
   @media (min-width: $tablet-width) {
     border: 0;
+    margin-left: 41px;
+    margin-bottom: 72px;
   }
 }
 
@@ -16,7 +18,7 @@
   margin-bottom: 14px;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 20px;
+    margin-bottom: 19px;
   }
 
   @media (min-width: $desktop-width) {
@@ -32,6 +34,10 @@
   line-height: 112%;
   text-transform: uppercase;
   color: $grey;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+  }
 }
 
 .fieldset-list__input {
@@ -45,6 +51,10 @@
   border: 1px solid #e7e7e7;
   margin: 0;
   appearance: none;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+  }
 }
 
 .fieldset-list__input:hover {
@@ -66,10 +76,9 @@
   margin-left: 10px;
 
   @media (min-width: $tablet-width) {
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 19px;
-    padding-right: 366px;
+    margin-top: 28px;
+    padding: 10px 18px;
+    width: 530px;
   }
 
   @media (min-width: $desktop-width) {
@@ -86,10 +95,9 @@
   margin-left: 12px;
 
   @media (min-width: $tablet-width) {
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 19px;
-    padding-right: 342px;
+    padding: 10px 16px;
+    width: 502px;
+    margin-left: 15px;
   }
 
   @media (min-width: $desktop-width) {
@@ -105,10 +113,8 @@
   margin-left: 5px;
 
   @media (min-width: $tablet-width) {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 19px;
-    padding-right: 300px;
+    padding: 10px 16px;
+    width: 464px;
   }
 
   @media (min-width: $desktop-width) {
