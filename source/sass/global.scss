@@ -176,15 +176,19 @@ body {
   font-size: 16px;
   line-height: 100%;
   color: $grey;
-  padding-bottom: 32px;
-  padding-top: 81px;
+  padding-top: 28px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 81px;
+    padding-bottom: 32px;
+  }
 }
 
 .html-logo__description {
   margin-right: 139px;
 
   @media (min-width: $tablet-width) {
-    margin-right: 0;
+    margin-right: 23px;
     padding-top: 7px;
   }
 }

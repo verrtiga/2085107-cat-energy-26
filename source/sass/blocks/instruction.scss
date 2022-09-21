@@ -224,5 +224,10 @@
 }
 
 .instruction__space {
-  display: block;
+  margin-left: 5px;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    margin: 0;
+  }
 }
