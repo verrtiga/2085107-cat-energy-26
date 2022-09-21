@@ -35,6 +35,10 @@
     padding-left: 1px;
     font-size: 36px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: -45px;
+  }
 }
 
 .fieldset-comment__textarea {
@@ -63,7 +67,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1220px;
-    height: 174px;
+    width: 1181px;
+    height: 141px;
+    margin-top: 33px;
+    margin-left: 32px;
   }
 }

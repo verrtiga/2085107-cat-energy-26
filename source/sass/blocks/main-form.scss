@@ -74,6 +74,11 @@
     font-size: 16px;
     margin-top: 15px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 87px;
+    margin-top: 18px;
+  }
 }
 
 .main-form__send {
@@ -86,5 +91,12 @@
     margin-top: 57px;
     margin-left: 51px;
     margin-bottom: 78px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    margin-top: 63px;
+    margin-left: 92px;
+    margin-bottom: 125px;
   }
 }
