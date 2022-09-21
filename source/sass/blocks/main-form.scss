@@ -21,6 +21,11 @@
     margin-left: 39px;
     margin-bottom: 54px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 77px;
+    margin-left: 30px;
+  }
 }
 
 .main-form__description {
@@ -41,6 +46,14 @@
     padding: 0;
     padding-left: 41px;
     padding-right: 338px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-top: 2px;
+    padding-left: 30px;
+    max-width: 323px;
+    margin-bottom: 37px;
   }
 }
 

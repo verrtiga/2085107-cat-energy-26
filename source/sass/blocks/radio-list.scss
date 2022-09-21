@@ -19,11 +19,14 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-right: 279px;
-    padding-top: 30px;
-    padding-left: 37px;
-    min-width: 236px;
-    margin-left: 47px;
+    padding: 0;
+    padding-top: 0;
+    padding-left: 55px;
+    width: 1008px;
+    height: 196px;
+    margin: 0;
+    margin-top: 30px;
+    margin-right: 30px;
   }
 }
 
@@ -42,6 +45,12 @@
     margin-top: 13px;
     margin-left: 15px;
     margin-bottom: 27px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 32px;
+    margin-left: -16px;
+    margin-bottom: 14px;
   }
 }
 
@@ -103,4 +112,9 @@
   height: 18px;
   background-color: $green;
   border-radius: 50%;
+
+  @media (min-width: $desktop-width) {
+    left: 10px;
+    top: 12px;
+  }
 }

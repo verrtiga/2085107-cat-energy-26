@@ -12,6 +12,10 @@
     margin-left: 41px;
     margin-bottom: 72px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 30px;
+  }
 }
 
 .fieldset-list__item {
@@ -22,7 +26,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
@@ -82,10 +86,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-right: 327px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 19px;
+    padding: 10px 20px;
+    width: 464px;
   }
 }
 
@@ -101,9 +103,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-right: 303px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 20px;
+    width: 433px;
   }
 }
 
@@ -118,6 +119,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-right: 264px;
+    padding: 10px 20px;
+    width: 394px;
   }
 }
