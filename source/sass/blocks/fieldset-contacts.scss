@@ -38,6 +38,10 @@
     line-height: 100%;
     font-size: 36px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-left: -45px;
+  }
 }
 
 .fieldset-contacts__list {
@@ -54,7 +58,7 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 65px;
   }
 }
@@ -114,6 +118,13 @@
     width: 509px;
     margin-left: 16px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    padding: 14px 21px;
+    width: 442px;
+    margin-left: 5px;
+  }
 }
 
 .fieldset-contacts__input--tel {
@@ -125,6 +136,13 @@
     padding: 14px 21px;
     width: 490px;
     margin-left: 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 14px 21px;
+    width: 428px;
+    margin-left: 12px;
+    margin-right: 32px;
   }
 }
 
@@ -145,6 +163,11 @@
     right: 83px;
     top: 129px;
   }
+
+  @media (min-width: $desktop-width) {
+    left: 641px;
+    top: 129px;
+  }
 }
 
 .fieldset-contacts__phone {
@@ -155,5 +178,10 @@
   @media (min-width: $tablet-width) {
     right: 83px;
     top: 197px;
+  }
+
+  @media (min-width: $desktop-width) {
+    right: 126px;
+    top: 125px;
   }
 }
