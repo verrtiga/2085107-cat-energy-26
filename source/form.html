@@ -32,7 +32,7 @@
       </button>
     </div>
     <nav class="navigation">
-      <div class="navigation__container navigation__container--open ">
+      <div class="navigation__container navigation__container--open navigation__container--nojs ">
         <ul class="navigation__list">
           <li class="navigation__item ">
             <a class="navigation__link" href="index.html">Главная</a>
@@ -124,10 +124,11 @@
           <div class="fieldset-comment">
             <div class="global-container">
               <div class="line-container">
-                <h2 class="fieldset-comment__title"> Комментарий </h2>
+              <h2 class="fieldset-comment__title"> <label for="comment"> Комментарий </label> </h2>
               </div>
+
               <textarea class="fieldset-comment__textarea" name="comment" rows="5" cols="33"
-                placeholder="Расскажите обо всех повАдках кота"></textarea>
+                placeholder="Расскажите обо всех повАдках кота" id="comment"></textarea>
             </div>
           </div>
           <div class="fieldset-additional">
@@ -165,7 +166,7 @@
           </div>
           <div class="main-form__send">
             <button class="main-form__button button" type="submit"> Отправить заявку</button>
-            <p class="main-form__required"><sap>*</sap>— Обязательные поля</p>
+            <p class="main-form__required"><span class="main-form__space">*</span>— Обязательные поля</p>
           </div>
       </form>
       <article class="location">
@@ -189,23 +190,25 @@
       <ul class="social__list">
         <li class="social__item">
           <a class="social__link" href="https://vk.com/htmlacademy">
-            <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="social__svg" width="28" height="22" viewBox="0 0 28 22" xmlns="http://www.w3.org/2000/svg">
               <use href="img/sprite.svg#vk"></use>
             </svg>
+            <span class="visually-hidden">Группа ВК.</span>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="https://www.youtube.com/c/HTMLAcademyRUS">
-            <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="social__svg" width="28" height="22" viewBox="0 0 28 22" xmlns="http://www.w3.org/2000/svg">
               <use href="img/sprite.svg#youtube"></use>
             </svg>
-
+            <span class="visually-hidden">Ютуб канал.</span>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="https://t.me/htmlacademy_sales">
-            <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="social__svg" width="28" height="22" viewBox="0 0 28 22" xmlns="http://www.w3.org/2000/svg">
               <use href="img/sprite.svg#tg"></use>
+              <span class="visually-hidden">Телеграм канал.</span>
             </svg>
           </a>
         </li>
@@ -213,14 +216,14 @@
       <span class="social__line"></span>
       <a class="html-logo" href="https://htmlacademy.ru/intensive/adaptive">
         <span class="html-logo__description">HTML Academy</span>
-        <svg class="html-logo__svg" width="27" height="34" viewBox="0 0 27 34" fill="none"
+        <svg class="html-logo__svg" width="27" height="34" viewBox="0 0 27 34"
           xmlns="http://www.w3.org/2000/svg">
           <use href="img/sprite.svg#html-footer"></use>
         </svg>
       </a>
     </div>
-  </footer>
-  <script src="js/script.js"></script>
-</body>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 
-</html>
+  </html>

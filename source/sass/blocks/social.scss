@@ -77,3 +77,12 @@
     min-height: 147px;
   }
 }
+
+.social__link > svg:hover {
+  stroke: hsl(97, 53%, 47%);
+}
+
+.social__link > svg:active {
+  stroke: hsl(97, 53%, 47%);
+  opacity: 0.3;
+}

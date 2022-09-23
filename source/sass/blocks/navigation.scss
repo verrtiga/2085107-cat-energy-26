@@ -5,11 +5,9 @@
 }
 
 .navigation__container {
-  @media (min-width: $mobile-width) {
-    position: absolute;
-    min-width: 100%;
-    min-height: 132px;
-  }
+  position: absolute;
+  min-width: 100%;
+  min-height: 132px;
 }
 
 .navigation__container--open {
@@ -29,6 +27,17 @@
   z-index: 10;
   position: absolute;
   margin-left: -20px;
+}
+
+.navigation__container--nojs {
+  position: static;
+  min-width: 100%;
+  padding-right: 20px;
+  visibility: visible;
+}
+
+.navigation__container--nojs .navigation__item {
+  display: block;
 }
 
 .navigation__list {

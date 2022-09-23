@@ -191,6 +191,14 @@ body {
   }
 }
 
+.html-logo:active {
+  opacity: 0.3;
+}
+
+.html-logo:hover {
+  stroke: hsl(97, 53%, 47%);
+}
+
 .html-logo__description {
   margin-right: 139px;
 
@@ -198,6 +206,11 @@ body {
     margin-right: 23px;
     padding-top: 7px;
   }
+}
+
+.html-logo__svg:active {
+  stroke: hsl(97, 53%, 47%);
+  opacity: 0.3;
 }
 
 
