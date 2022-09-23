@@ -68,13 +68,28 @@
   display: block;
   border: none;
   max-height: 362px;
+  background-image: url("../img/location-map.jpg");
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/location-map@2x.jpg");
+  }
 
   @media (min-width: $tablet-width) {
     height: 400px;
+    background-image: url("../img/location-map-table.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/location-map-table@2x.jpg");
+    }
   }
 
   @media (min-width: $desktop-width) {
     height: 400px;
+    background-image: url("../img/location-map-desktop.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/location-map-desktop@2x.jpg");
+    }
   }
 }
 
