@@ -11,12 +11,17 @@
 
 
   @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
     background-color: $milk;
     width: 324px;
-    border: none;
-    display: block;
-    padding-top: 124px;
-    padding-bottom: 39px;
+    min-height: 430px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0;
+    padding: 0 19px;
+    padding-top: 115px;
+    padding-bottom: 17px;
   }
 
   @media (min-width: $desktop-width) {
@@ -44,6 +49,12 @@
   background-color: #d3d3dd;
   transform: translateX(-50%);
   top: 38px;
+
+  @media (min-width: $tablet-width) {
+    width: 60px;
+    left: 162px;
+    top: 82px;
+  }
 }
 
 .product-card--more::after {
@@ -56,7 +67,10 @@
   padding: 19px 0;
 
   @media (min-width: $tablet-width) {
-    padding: 35px 42px;
+    padding: 0;
+    margin: 0 0 37px;
+    width: 249px;
+    margin-left: 15px;
   }
 }
 
@@ -76,6 +90,11 @@
   @media (min-width: $tablet-width) {
     line-height: 120%;
     font-size: 20px;
+    width: 130px;
+    text-align: center;
+    margin: 0 auto 11px;
+    margin-top: 47px;
+    margin-right: 54px;
   }
 
   @media (min-width: $desktop-width) {
@@ -97,6 +116,14 @@
   margin: 0;
   margin-top: 76px;
   margin-left: 40px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 110%;
+    width: 134px;
+    margin-left: 77px;
+    margin-top: 49px;
+  }
 }
 
 
@@ -104,13 +131,12 @@
   padding-left: 33px;
   margin-top: 37px;
 
-
   @media (min-width: $tablet-width) {
-    margin-left: 100px;
     width: 161px;
     height: 172px;
     position: absolute;
-    margin-top: -170px;
+    left: 53px;
+    bottom: 316px;
   }
 
   @media (min-width: $desktop-width) {
@@ -133,12 +159,18 @@
   @media (min-width: $tablet-width) {
     line-height: 87%;
     border-collapse: collapse;
+    width: 100%;
   }
 }
 
 .product-card__link {
-  width: 140px;
+  width: 310px;
   height: 144px;
+
+  @media (min-width: $tablet-width) {
+    width: 310px;
+    height: auto;
+  }
 }
 
 
@@ -155,6 +187,10 @@
   @media (min-width: $tablet-width) {
     line-height: 112%;
     font-size: 16px;
+    width: 170px;
+    margin-top: 21px;
+    margin-left: 60px;
+    margin-bottom: 97px;
   }
 }
 
@@ -163,9 +199,10 @@
 
   @media (min-width: $tablet-width) {
     border-bottom: 1px solid #d3d3dd;
-    padding: 16px 40px;
+    padding: 8px 0 10px;
     line-height: 100%;
     font-size: 16px;
+    text-align: left;
 
     @media (min-width: $desktop-width) {
       padding: 16px 26px;

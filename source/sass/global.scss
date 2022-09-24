@@ -123,10 +123,9 @@ body {
 
   @media (min-width: $tablet-width) {
     display: grid;
-    grid-template-columns: 324px 324px;
-    column-gap: 29px;
-    row-gap: 90px;
-    padding: 68px 30px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 59px;
+    row-gap: 140px;
   }
 
   @media (min-width: $desktop-width) {

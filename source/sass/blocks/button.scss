@@ -57,7 +57,12 @@
   text-decoration: none;
 
   @media (min-width: $tablet-width) {
-    padding: 10px 94px;
+    padding: 10px 90px;
+    width: 249px;
+    margin: 0;
+    margin-top: -11px;
+    margin-left: 22px;
+    flex-grow: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -80,8 +85,11 @@
   background-color: $milk;
   color: $grey;
 
+  @media (min-width: $tablet-width) {
+    padding: 10px 66px;
+  }
+
   @media (min-width: $desktop-width) {
-    padding: 10px 23px;
     width: 169px;
   }
 }
