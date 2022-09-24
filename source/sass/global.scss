@@ -118,7 +118,8 @@ body {
 }
 
 .catalog-wrapper {
-  display: block;
+  display: flex;
+  flex-direction: column;
 
   @media (min-width: $tablet-width) {
     display: grid;

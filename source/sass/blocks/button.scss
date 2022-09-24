@@ -45,11 +45,15 @@
 }
 
 .product-card__button {
-  width: 60px;
-  padding: 10px 110px;
-  margin-right: 20px;
+  display: block;
+  width: 280px;
+  padding: 10px 0;
   line-height: 125%;
-  margin-top: 3px;
+  text-align: center;
+  margin-bottom: 27px;
+  margin-top: -7px;
+  flex-grow: 1;
+  box-sizing: border-box;
   text-decoration: none;
 
   @media (min-width: $tablet-width) {
