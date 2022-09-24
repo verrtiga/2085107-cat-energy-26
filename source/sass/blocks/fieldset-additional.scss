@@ -129,6 +129,11 @@
   border-color: #bababa;
 }
 
+.fieldset-additional__control:active,
+.fieldset-additional__control:focus {
+  outline: 2px solid #bababa;
+}
+
 .fieldset-additional__control:disabled {
   opacity: 0.3;
 }
