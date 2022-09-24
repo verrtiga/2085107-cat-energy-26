@@ -100,11 +100,17 @@
 }
 
 .fieldset-contacts__input:focus {
-  border-color: $grey;
+  outline: 2px solid $grey;
 }
 
-.fieldset-contacts__input:disabled {
+.fieldset-contacts__input:active ~ svg,
+.fieldset-contacts__input:focus ~ svg {
+  stroke: $green;
+}
+
+.fieldset-contacts__input:disabled ~ svg {
   border-color: #ff8282;
+  stroke: #ff8282;
 }
 
 .fieldset-contacts__input--email {
@@ -158,6 +164,7 @@
   position: absolute;
   right: 37px;
   top: 102px;
+  stroke: $black2;
 
   @media (min-width: $tablet-width) {
     right: 83px;
@@ -168,6 +175,10 @@
     left: 641px;
     top: 129px;
   }
+}
+
+.fieldset-contacts__email:focus {
+  stroke: $green;
 }
 
 .fieldset-contacts__phone {

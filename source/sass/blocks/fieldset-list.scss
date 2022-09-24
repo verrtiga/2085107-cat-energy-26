@@ -67,7 +67,7 @@
 }
 
 .fieldset-list__input:focus {
-  border-color: $grey;
+  outline: 2px solid $grey;
 }
 
 .fieldset-list__input:disabled {
