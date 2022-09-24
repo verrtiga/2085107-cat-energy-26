@@ -129,8 +129,7 @@
   border-color: #bababa;
 }
 
-.fieldset-additional__control:active,
-.fieldset-additional__control:focus {
+.fieldset-additional__input:focus + .fieldset-additional__control {
   outline: 2px solid #bababa;
 }
 
