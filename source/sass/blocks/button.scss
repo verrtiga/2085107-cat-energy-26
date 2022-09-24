@@ -45,12 +45,16 @@
 }
 
 .product-card__button {
-  width: 280px;
+  width: 60px;
   padding: 10px 110px;
   margin-right: 20px;
   line-height: 125%;
   margin-top: 3px;
   text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 10px 94px;
+  }
 
   @media (min-width: $desktop-width) {
     width: 168px;
