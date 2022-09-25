@@ -167,6 +167,12 @@ body {
   }
 }
 
+.additional-wrapper {
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
+}
+
 .html-logo {
   display: flex;
   text-decoration: none;

@@ -27,8 +27,9 @@
     width: 244px;
     height: 288px;
     background-size: auto;
-    margin-left: 170px;
-    margin-top: 27px;
+    margin-left: 77px;
+    margin-top: 80px;
+    margin-bottom: 143px;
   }
 }
 
@@ -70,7 +71,9 @@
   @media (min-width: $desktop-width) {
     padding-top: 184px;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 21px;
     padding-bottom: 42px;
+    width: 161px;
+    text-align: center;
   }
 }
