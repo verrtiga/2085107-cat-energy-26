@@ -68,12 +68,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    display: flex;
-    margin-bottom: 44px;
-    margin-top: 40px;
-    margin-left: 92px;
-    margin-right: -107px;
-    column-gap: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 116px;
     flex-wrap: wrap;
   }
 }
