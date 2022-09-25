@@ -133,10 +133,10 @@
 
   @media (min-width: $tablet-width) {
     width: 161px;
-    height: 172px;
+    height: auto;
     position: absolute;
     left: 53px;
-    bottom: 316px;
+    bottom: 307px;
   }
 
   @media (min-width: $desktop-width) {
@@ -164,7 +164,7 @@
 }
 
 .product-card__link {
-  width: 310px;
+  width: 140px;
   height: 144px;
 
   @media (min-width: $tablet-width) {

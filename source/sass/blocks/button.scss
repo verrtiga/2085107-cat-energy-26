@@ -102,9 +102,9 @@
   text-decoration: none;
 
   @media (min-width: $tablet-width) {
-    padding: 7px 220px;
-    padding-bottom: 10px;
     line-height: 0;
+    padding: 7px 286px;
+    width: 47px;
   }
 
   @media (min-width: $desktop-width) {
