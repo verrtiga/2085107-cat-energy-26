@@ -204,17 +204,6 @@
   }
 }
 
-// .example__info--weight {
-//   @media (min-width: $tablet-width) {
-//     margin-left: -30px;
-//   }
-// }
-
-// .example__info--days {
-//   @media (min-width: $tablet-width) {
-//     margin-left: -30px;
-//   }
-// }
 
 .example__little-title {
   font-family: $oswald;
@@ -242,6 +231,7 @@
   @media (min-width: $desktop-width) {
     padding-left: 31px;
     padding-top: 54px;
+    padding-bottom: 30px;
     text-align: left;
   }
 }
