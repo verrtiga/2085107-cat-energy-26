@@ -124,6 +124,10 @@
   top: 31px;
   height: 2px;
   background-color: $green;
+
+  @media (min-width: $desktop-width) {
+    top: 37px;
+  }
 }
 
 .navigation__item {

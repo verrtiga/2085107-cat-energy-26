@@ -22,4 +22,10 @@
     margin-bottom: 122px;
     padding-left: -2px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 30px;
+    padding-top: 78px;
+    margin-bottom: 123px;
+  }
 }

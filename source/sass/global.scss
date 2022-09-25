@@ -131,6 +131,10 @@ body {
   @media (min-width: $desktop-width) {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 0;
+    row-gap: 0;
   }
 }
 
