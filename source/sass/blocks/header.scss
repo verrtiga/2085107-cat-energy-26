@@ -47,6 +47,10 @@
   }
 }
 
+.header--nojs {
+  display: none;
+}
+
 .header__toggle--close::before {
   content: "";
   position: absolute;

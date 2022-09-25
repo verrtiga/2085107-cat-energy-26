@@ -14,7 +14,9 @@
   padding: 0;
 
   @media (min-width: $desktop-width) {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 51px;
     margin-left: 31px;
   }
 }
@@ -32,11 +34,6 @@
   }
 }
 
-.advantages__item:nth-child(2) {
-  @media (min-width: $desktop-width) {
-    margin-left: 80px;
-  }
-}
 
 .advantages__item--slim::before {
   content: "";
