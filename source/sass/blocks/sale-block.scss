@@ -27,7 +27,7 @@
     width: 244px;
     height: 288px;
     background-size: auto;
-    margin-left: 77px;
+    margin-left: 79px;
     margin-top: 80px;
     margin-bottom: 143px;
   }
@@ -44,6 +44,10 @@
 
   @media (min-width: $tablet-width) {
     left: 80px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 85px;
   }
 }
 
