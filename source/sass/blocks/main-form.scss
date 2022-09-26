@@ -95,8 +95,9 @@
 
   @media (min-width: $desktop-width) {
     flex-direction: row;
+    max-width: 1440px;
+    margin: 0 auto;
     margin-top: 63px;
-    margin-left: 92px;
     margin-bottom: 125px;
   }
 }
