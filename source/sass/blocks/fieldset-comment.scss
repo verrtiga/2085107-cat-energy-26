@@ -11,8 +11,12 @@
   height: 2px;
   background-color: $green;
   position: absolute;
-  top: 20px;
+  top: 14px;
   z-index: 0;
+
+  @media (min-width: $tablet-width) {
+    top: 20px;
+  }
 }
 
 .fieldset-comment__title {
@@ -20,6 +24,8 @@
   margin-bottom: 40px;
   padding: 0;
   padding-right: 21px;
+  margin-left: -23px;
+  padding-left: 21px;
   font-family: $oswald;
   font-style: normal;
   font-weight: 400;

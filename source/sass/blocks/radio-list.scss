@@ -105,13 +105,20 @@
 .radio-list__input[type="radio"]:checked + .radio-list__mark::before {
   content: "";
   position: absolute;
-  left: 11px;
+  left: 8px;
   top: 8px;
   margin: auto;
-  width: 18px;
-  height: 18px;
+  width: 13px;
+  height: 13px;
   background-color: $green;
   border-radius: 50%;
+
+  @media (min-width: $desktop-width) {
+    width: 18px;
+    height: 18px;
+    left: 11px;
+    top: 8px;
+  }
 
   @media (min-width: $desktop-width) {
     left: 11px;

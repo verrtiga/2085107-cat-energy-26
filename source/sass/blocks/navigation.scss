@@ -12,11 +12,11 @@
 
 .navigation__container--open {
   position: absolute;
-  visibility: hidden;
+  display: none;
   z-index: 2;
 
   @media (min-width: $tablet-width) {
-    visibility: visible;
+    display: block;
     position: unset;
     margin-top: 43px;
     min-height: 36px;

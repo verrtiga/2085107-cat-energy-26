@@ -25,7 +25,8 @@
   margin-bottom: 38px;
   margin-top: 9px;
   padding: 0;
-  margin-left: -19px;
+  margin-left: -40px;
+  padding-left: 19px;
   padding-right: 20px;
   font-family: $oswald;
   font-style: normal;
@@ -39,7 +40,7 @@
 
   @media (min-width: $tablet-width) {
     line-height: 100%;
-    padding-left: 20px;
+    padding-left: 41px;
     font-size: 36px;
     margin-top: 60px;
   }
