@@ -147,8 +147,8 @@
 
 
 .product-card__img {
-  padding-left: 33px;
-  margin-top: 37px;
+  padding-left: 34px;
+  margin-top: 28px;
 
   @media (min-width: $tablet-width) {
     width: 167px;
@@ -246,9 +246,7 @@
 }
 
 .product-card__td:last-child {
-  @media (min-width: $tablet-width) {
-    text-align: right;
-  }
+  text-align: right;
 }
 
 .product-card__tr {
