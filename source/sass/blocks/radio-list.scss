@@ -113,11 +113,11 @@
   background-color: $green;
   border-radius: 50%;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     width: 18px;
     height: 18px;
     left: 11px;
-    top: 8px;
+    top: 11px;
   }
 
   @media (min-width: $desktop-width) {
