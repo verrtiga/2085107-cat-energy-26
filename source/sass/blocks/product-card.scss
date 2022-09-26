@@ -26,7 +26,6 @@
 
   @media (min-width: $desktop-width) {
     width: 245px;
-    margin-right: 39px;
     margin-bottom: 143px;
   }
 }
@@ -59,7 +58,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    left: 131px;
+    left: 122px;
   }
 }
 
@@ -81,9 +80,8 @@
 
   @media (min-width: $desktop-width) {
     padding: 0;
-    width: 224px;
+    width: 169px;
     margin: 0;
-    margin-top: -30px;
   }
 }
 
@@ -113,8 +111,10 @@
   @media (min-width: $desktop-width) {
     line-height: 105%;
     margin: 0;
-    margin-top: 78px;
+    margin-top: 47px;
     margin-left: 42px;
+    margin-bottom: 5px;
+    width: 130px;
   }
 }
 
@@ -140,7 +140,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 46px;
+    margin-left: 35px;
     margin-top: 45px;
   }
 }
@@ -151,15 +151,16 @@
   margin-top: 37px;
 
   @media (min-width: $tablet-width) {
-    width: 161px;
+    width: 167px;
     height: auto;
     position: absolute;
-    left: 53px;
-    bottom: 307px;
+    left: 46px;
+    bottom: 304px;
   }
 
   @media (min-width: $desktop-width) {
-    left: 13px;
+    left: 9px;
+    width: 166px;
   }
 }
 
@@ -181,7 +182,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 186px;
+    width: 190px;
   }
 }
 
@@ -221,7 +222,8 @@
 
   @media (min-width: $desktop-width) {
     margin-top: 24px;
-    margin-left: 26px;
+    margin-left: 17px;
+    margin-bottom: 85px;
   }
 }
 
@@ -238,14 +240,16 @@
 
   @media (min-width: $desktop-width) {
     padding: 0;
-    padding-top: 19px;
+    padding-top: 17px;
     padding-left: 22px;
   }
 }
 
-// .product-card__td:last-child {
-//   text-align: right;
-// }
+.product-card__td:last-child {
+  @media (min-width: $tablet-width) {
+    text-align: right;
+  }
+}
 
 .product-card__tr {
   border-bottom: 1px solid #6d6d6d;
